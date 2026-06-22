@@ -1,0 +1,717 @@
+[1.122s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.122s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fd01b8c1870>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd01ba1e7a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd01ba1e7a0>>, mixin_verb=('build',))
+[2.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.868s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leime957/TDDE05/ros2_ws'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extensions ['ignore', 'ignore_ament_install']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extension 'ignore'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extension 'ignore_ament_install'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extensions ['colcon_pkg']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extension 'colcon_pkg'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extensions ['colcon_meta']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extension 'colcon_meta'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extensions ['ros']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extension 'ros'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extensions ['cmake', 'python']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extension 'cmake'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extension 'python'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extensions ['python_setup_py']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs) by extension 'python_setup_py'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab2) by extensions ['ignore', 'ignore_ament_install']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab2) by extension 'ignore'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab2) by extension 'ignore_ament_install'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab2) by extensions ['colcon_pkg']
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab2) by extension 'colcon_pkg'
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab2) by extensions ['colcon_meta']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab2) by extension 'colcon_meta'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab2) by extensions ['ros']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab2) by extension 'ros'
+[2.945s] DEBUG:colcon.colcon_core.package_identification:Package 'src/labs/air_lab2' with type 'ros.ament_python' and name 'air_lab2'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab3) by extensions ['ignore', 'ignore_ament_install']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab3) by extension 'ignore'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab3) by extension 'ignore_ament_install'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab3) by extensions ['colcon_pkg']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab3) by extension 'colcon_pkg'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab3) by extensions ['colcon_meta']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab3) by extension 'colcon_meta'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab3) by extensions ['ros']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab3) by extension 'ros'
+[2.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/labs/air_lab3' with type 'ros.ament_python' and name 'air_lab3'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab5) by extensions ['ignore', 'ignore_ament_install']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab5) by extension 'ignore'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab5) by extension 'ignore_ament_install'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab5) by extensions ['colcon_pkg']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab5) by extension 'colcon_pkg'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab5) by extensions ['colcon_meta']
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab5) by extension 'colcon_meta'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab5) by extensions ['ros']
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab5) by extension 'ros'
+[2.957s] DEBUG:colcon.colcon_core.package_identification:Package 'src/labs/air_lab5' with type 'ros.ament_python' and name 'air_lab5'
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_common) by extensions ['ignore', 'ignore_ament_install']
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_common) by extension 'ignore'
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_common) by extension 'ignore_ament_install'
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_common) by extensions ['colcon_pkg']
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_common) by extension 'colcon_pkg'
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_common) by extensions ['colcon_meta']
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_common) by extension 'colcon_meta'
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_common) by extensions ['ros']
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_common) by extension 'ros'
+[2.962s] DEBUG:colcon.colcon_core.package_identification:Package 'src/labs/air_lab_common' with type 'ros.ament_python' and name 'air_lab_common'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_interfaces) by extension 'ignore'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_interfaces) by extension 'ignore_ament_install'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_interfaces) by extensions ['colcon_pkg']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_interfaces) by extension 'colcon_pkg'
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_interfaces) by extensions ['colcon_meta']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_interfaces) by extension 'colcon_meta'
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_interfaces) by extensions ['ros']
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/air_lab_interfaces) by extension 'ros'
+[2.968s] DEBUG:colcon.colcon_core.package_identification:Package 'src/labs/air_lab_interfaces' with type 'ros.ament_cmake' and name 'air_lab_interfaces'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extensions ['ignore', 'ignore_ament_install']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extension 'ignore'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extension 'ignore_ament_install'
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extensions ['colcon_pkg']
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extension 'colcon_pkg'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extensions ['colcon_meta']
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extension 'colcon_meta'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extensions ['ros']
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extension 'ros'
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extensions ['cmake', 'python']
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extension 'cmake'
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extension 'python'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extensions ['python_setup_py']
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/labs/extras) by extension 'python_setup_py'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extensions ['ignore', 'ignore_ament_install']
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extension 'ignore'
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extension 'ignore_ament_install'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extensions ['colcon_pkg']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extension 'colcon_pkg'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extensions ['colcon_meta']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extension 'colcon_meta'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extensions ['ros']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extension 'ros'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extensions ['cmake', 'python']
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extension 'cmake'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extension 'python'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extensions ['python_setup_py']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04) by extension 'python_setup_py'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_bringup) by extension 'ignore'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_bringup) by extension 'ignore_ament_install'
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_bringup) by extensions ['colcon_pkg']
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_bringup) by extension 'colcon_pkg'
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_bringup) by extensions ['colcon_meta']
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_bringup) by extension 'colcon_meta'
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_bringup) by extensions ['ros']
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_bringup) by extension 'ros'
+[2.984s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdde05-projects-air-04/air_bringup' with type 'ros.ament_python' and name 'air_bringup'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation) by extension 'ignore'
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation) by extension 'ignore_ament_install'
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation) by extensions ['colcon_pkg']
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation) by extension 'colcon_pkg'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation) by extensions ['colcon_meta']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation) by extension 'colcon_meta'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation) by extensions ['ros']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation) by extension 'ros'
+[2.989s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdde05-projects-air-04/air_navigation' with type 'ros.ament_cmake' and name 'air_navigation'
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation_examples) by extensions ['ignore', 'ignore_ament_install']
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation_examples) by extension 'ignore'
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation_examples) by extension 'ignore_ament_install'
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation_examples) by extensions ['colcon_pkg']
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation_examples) by extension 'colcon_pkg'
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation_examples) by extensions ['colcon_meta']
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation_examples) by extension 'colcon_meta'
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation_examples) by extensions ['ros']
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/air_navigation_examples) by extension 'ros'
+[2.994s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdde05-projects-air-04/air_navigation_examples' with type 'ros.ament_python' and name 'air_navigation_examples'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/exploration) by extensions ['ignore', 'ignore_ament_install']
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/exploration) by extension 'ignore'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/exploration) by extension 'ignore_ament_install'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/exploration) by extensions ['colcon_pkg']
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/exploration) by extension 'colcon_pkg'
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/exploration) by extensions ['colcon_meta']
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/exploration) by extension 'colcon_meta'
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/exploration) by extensions ['ros']
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/exploration) by extension 'ros'
+[2.999s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdde05-projects-air-04/exploration' with type 'ros.ament_python' and name 'exploration'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/project_interface) by extensions ['ignore', 'ignore_ament_install']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/project_interface) by extension 'ignore'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/project_interface) by extension 'ignore_ament_install'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/project_interface) by extensions ['colcon_pkg']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/project_interface) by extension 'colcon_pkg'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/project_interface) by extensions ['colcon_meta']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/project_interface) by extension 'colcon_meta'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/project_interface) by extensions ['ros']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdde05-projects-air-04/project_interface) by extension 'ros'
+[3.005s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdde05-projects-air-04/project_interface' with type 'ros.ament_cmake' and name 'project_interface'
+[3.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.145s] Level 5:colcon.colcon_core.verb:set package 'air_bringup' build argument 'cmake_args' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'air_bringup' build argument 'cmake_target' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'air_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'air_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'air_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'air_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'air_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'air_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'air_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.146s] DEBUG:colcon.colcon_core.verb:Building package 'air_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/air_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/air_bringup', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_bringup', 'symlink_install': True, 'test_result_base': None}
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'air_lab2' build argument 'cmake_args' from command line to 'None'
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'air_lab2' build argument 'cmake_target' from command line to 'None'
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'air_lab2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'air_lab2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'air_lab2' build argument 'cmake_clean_first' from command line to 'False'
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'air_lab2' build argument 'cmake_force_configure' from command line to 'False'
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'air_lab2' build argument 'ament_cmake_args' from command line to 'None'
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'air_lab2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'air_lab2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.147s] DEBUG:colcon.colcon_core.verb:Building package 'air_lab2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/air_lab2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/air_lab2', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab2', 'symlink_install': True, 'test_result_base': None}
+[3.148s] Level 5:colcon.colcon_core.verb:set package 'air_lab_common' build argument 'cmake_args' from command line to 'None'
+[3.149s] Level 5:colcon.colcon_core.verb:set package 'air_lab_common' build argument 'cmake_target' from command line to 'None'
+[3.149s] Level 5:colcon.colcon_core.verb:set package 'air_lab_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.149s] Level 5:colcon.colcon_core.verb:set package 'air_lab_common' build argument 'cmake_clean_cache' from command line to 'False'
+[3.149s] Level 5:colcon.colcon_core.verb:set package 'air_lab_common' build argument 'cmake_clean_first' from command line to 'False'
+[3.149s] Level 5:colcon.colcon_core.verb:set package 'air_lab_common' build argument 'cmake_force_configure' from command line to 'False'
+[3.149s] Level 5:colcon.colcon_core.verb:set package 'air_lab_common' build argument 'ament_cmake_args' from command line to 'None'
+[3.149s] Level 5:colcon.colcon_core.verb:set package 'air_lab_common' build argument 'catkin_cmake_args' from command line to 'None'
+[3.149s] Level 5:colcon.colcon_core.verb:set package 'air_lab_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.149s] DEBUG:colcon.colcon_core.verb:Building package 'air_lab_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/air_lab_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/air_lab_common', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_common', 'symlink_install': True, 'test_result_base': None}
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'air_lab_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'air_lab_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'air_lab_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'air_lab_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'air_lab_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'air_lab_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'air_lab_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'air_lab_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'air_lab_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.151s] DEBUG:colcon.colcon_core.verb:Building package 'air_lab_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces', 'symlink_install': True, 'test_result_base': None}
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'air_navigation' build argument 'cmake_args' from command line to 'None'
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'air_navigation' build argument 'cmake_target' from command line to 'None'
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'air_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'air_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'air_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'air_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'air_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'air_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[3.153s] Level 5:colcon.colcon_core.verb:set package 'air_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.153s] DEBUG:colcon.colcon_core.verb:Building package 'air_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/air_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/air_navigation', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_navigation', 'symlink_install': True, 'test_result_base': None}
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'air_navigation_examples' build argument 'cmake_args' from command line to 'None'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'air_navigation_examples' build argument 'cmake_target' from command line to 'None'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'air_navigation_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'air_navigation_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'air_navigation_examples' build argument 'cmake_clean_first' from command line to 'False'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'air_navigation_examples' build argument 'cmake_force_configure' from command line to 'False'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'air_navigation_examples' build argument 'ament_cmake_args' from command line to 'None'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'air_navigation_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'air_navigation_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.154s] DEBUG:colcon.colcon_core.verb:Building package 'air_navigation_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_navigation_examples', 'symlink_install': True, 'test_result_base': None}
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'project_interface' build argument 'cmake_args' from command line to 'None'
+[3.156s] Level 5:colcon.colcon_core.verb:set package 'project_interface' build argument 'cmake_target' from command line to 'None'
+[3.156s] Level 5:colcon.colcon_core.verb:set package 'project_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.156s] Level 5:colcon.colcon_core.verb:set package 'project_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[3.156s] Level 5:colcon.colcon_core.verb:set package 'project_interface' build argument 'cmake_clean_first' from command line to 'False'
+[3.156s] Level 5:colcon.colcon_core.verb:set package 'project_interface' build argument 'cmake_force_configure' from command line to 'False'
+[3.156s] Level 5:colcon.colcon_core.verb:set package 'project_interface' build argument 'ament_cmake_args' from command line to 'None'
+[3.156s] Level 5:colcon.colcon_core.verb:set package 'project_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[3.156s] Level 5:colcon.colcon_core.verb:set package 'project_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.156s] DEBUG:colcon.colcon_core.verb:Building package 'project_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/project_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/project_interface', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/project_interface', 'symlink_install': True, 'test_result_base': None}
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'air_lab3' build argument 'cmake_args' from command line to 'None'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'air_lab3' build argument 'cmake_target' from command line to 'None'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'air_lab3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'air_lab3' build argument 'cmake_clean_cache' from command line to 'False'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'air_lab3' build argument 'cmake_clean_first' from command line to 'False'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'air_lab3' build argument 'cmake_force_configure' from command line to 'False'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'air_lab3' build argument 'ament_cmake_args' from command line to 'None'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'air_lab3' build argument 'catkin_cmake_args' from command line to 'None'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'air_lab3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.158s] DEBUG:colcon.colcon_core.verb:Building package 'air_lab3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/air_lab3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/air_lab3', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab3', 'symlink_install': True, 'test_result_base': None}
+[3.158s] Level 5:colcon.colcon_core.verb:set package 'air_lab5' build argument 'cmake_args' from command line to 'None'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'air_lab5' build argument 'cmake_target' from command line to 'None'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'air_lab5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'air_lab5' build argument 'cmake_clean_cache' from command line to 'False'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'air_lab5' build argument 'cmake_clean_first' from command line to 'False'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'air_lab5' build argument 'cmake_force_configure' from command line to 'False'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'air_lab5' build argument 'ament_cmake_args' from command line to 'None'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'air_lab5' build argument 'catkin_cmake_args' from command line to 'None'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'air_lab5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.159s] DEBUG:colcon.colcon_core.verb:Building package 'air_lab5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/air_lab5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/air_lab5', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab5', 'symlink_install': True, 'test_result_base': None}
+[3.160s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_args' from command line to 'None'
+[3.161s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_target' from command line to 'None'
+[3.161s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.161s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_clean_cache' from command line to 'False'
+[3.161s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_clean_first' from command line to 'False'
+[3.161s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'cmake_force_configure' from command line to 'False'
+[3.161s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'ament_cmake_args' from command line to 'None'
+[3.161s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'catkin_cmake_args' from command line to 'None'
+[3.161s] Level 5:colcon.colcon_core.verb:set package 'exploration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.161s] DEBUG:colcon.colcon_core.verb:Building package 'exploration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leime957/TDDE05/ros2_ws/build/exploration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leime957/TDDE05/ros2_ws/install/exploration', 'merge_install': False, 'path': '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/exploration', 'symlink_install': True, 'test_result_base': None}
+[3.162s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.164s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces' with build type 'ament_cmake'
+[3.164s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces'
+[3.201s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/project_interface' with build type 'ament_cmake'
+[3.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/project_interface'
+[3.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.321s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_bringup' with build type 'ament_python'
+[3.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_bringup', 'ament_prefix_path')
+[3.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/hook/ament_prefix_path.ps1'
+[3.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/hook/ament_prefix_path.dsv'
+[3.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/hook/ament_prefix_path.sh'
+[3.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.365s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab2' with build type 'ament_python'
+[3.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab2', 'ament_prefix_path')
+[3.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/hook/ament_prefix_path.ps1'
+[3.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/hook/ament_prefix_path.dsv'
+[3.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/hook/ament_prefix_path.sh'
+[3.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.400s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_common' with build type 'ament_python'
+[3.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab_common', 'ament_prefix_path')
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/hook/ament_prefix_path.ps1'
+[3.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/hook/ament_prefix_path.dsv'
+[3.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/hook/ament_prefix_path.sh'
+[3.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_navigation' with build type 'ament_cmake'
+[3.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_navigation'
+[3.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.463s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_navigation_examples' with build type 'ament_python'
+[3.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_navigation_examples', 'ament_prefix_path')
+[3.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/hook/ament_prefix_path.ps1'
+[3.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/hook/ament_prefix_path.dsv'
+[3.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/hook/ament_prefix_path.sh'
+[3.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces -- -j20 -l20
+[3.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/project_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/project_interface -- -j20 -l20
+[12.226s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_bringup'
+[12.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.086s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab2'
+[15.086s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.867s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_common'
+[16.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.868s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_navigation -- -j20 -l20
+[19.548s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_navigation_examples'
+[19.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/project_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/project_interface -- -j20 -l20
+[19.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/project_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/project_interface
+[19.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces -- -j20 -l20
+[19.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces
+[21.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_interface)
+[21.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/project_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/project_interface
+[21.357s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface' for CMake module files
+[21.360s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface' for CMake config files
+[21.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_interface', 'cmake_prefix_path')
+[21.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/cmake_prefix_path.ps1'
+[21.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/cmake_prefix_path.dsv'
+[21.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/cmake_prefix_path.sh'
+[21.384s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/lib'
+[21.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_interface', 'ld_library_path_lib')
+[21.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/ld_library_path_lib.ps1'
+[21.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/ld_library_path_lib.dsv'
+[21.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/ld_library_path_lib.sh'
+[21.394s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/bin'
+[21.395s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/lib/pkgconfig/project_interface.pc'
+[21.396s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/lib/python3.10/site-packages'
+[21.396s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/bin'
+[21.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.ps1'
+[21.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.dsv'
+[21.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.sh'
+[21.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.bash'
+[21.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.zsh'
+[21.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/project_interface/share/colcon-core/packages/project_interface)
+[21.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_interface)
+[21.452s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface' for CMake module files
+[21.454s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface' for CMake config files
+[21.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_interface', 'cmake_prefix_path')
+[21.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/cmake_prefix_path.ps1'
+[21.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/cmake_prefix_path.dsv'
+[21.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/cmake_prefix_path.sh'
+[21.469s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/lib'
+[21.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_interface', 'ld_library_path_lib')
+[21.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/ld_library_path_lib.ps1'
+[21.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/ld_library_path_lib.dsv'
+[21.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/hook/ld_library_path_lib.sh'
+[21.480s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/bin'
+[21.480s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/lib/pkgconfig/project_interface.pc'
+[21.481s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/lib/python3.10/site-packages'
+[21.482s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/project_interface/bin'
+[21.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.ps1'
+[21.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.dsv'
+[21.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.sh'
+[21.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.bash'
+[21.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.zsh'
+[21.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/project_interface/share/colcon-core/packages/project_interface)
+[21.502s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/exploration' with build type 'ament_python'
+[21.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('exploration', 'ament_prefix_path')
+[21.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/hook/ament_prefix_path.ps1'
+[21.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/hook/ament_prefix_path.dsv'
+[21.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/hook/ament_prefix_path.sh'
+[21.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_lab_interfaces)
+[21.674s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces' for CMake module files
+[21.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces
+[21.677s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces' for CMake config files
+[21.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab_interfaces', 'cmake_prefix_path')
+[21.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/cmake_prefix_path.ps1'
+[21.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/cmake_prefix_path.dsv'
+[21.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/cmake_prefix_path.sh'
+[21.715s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib'
+[21.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab_interfaces', 'ld_library_path_lib')
+[21.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/ld_library_path_lib.ps1'
+[21.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/ld_library_path_lib.dsv'
+[21.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/ld_library_path_lib.sh'
+[21.727s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/bin'
+[21.728s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/pkgconfig/air_lab_interfaces.pc'
+[21.729s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/python3.10/site-packages'
+[21.729s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/bin'
+[21.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.ps1'
+[21.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.dsv'
+[21.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.sh'
+[21.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.bash'
+[21.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.zsh'
+[21.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/colcon-core/packages/air_lab_interfaces)
+[21.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_lab_interfaces)
+[21.754s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces' for CMake module files
+[21.756s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces' for CMake config files
+[21.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab_interfaces', 'cmake_prefix_path')
+[21.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/cmake_prefix_path.ps1'
+[21.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/cmake_prefix_path.dsv'
+[21.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/cmake_prefix_path.sh'
+[21.777s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib'
+[21.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab_interfaces', 'ld_library_path_lib')
+[21.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/ld_library_path_lib.ps1'
+[21.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/ld_library_path_lib.dsv'
+[21.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/hook/ld_library_path_lib.sh'
+[21.790s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/bin'
+[21.790s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/pkgconfig/air_lab_interfaces.pc'
+[21.791s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/python3.10/site-packages'
+[21.791s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/bin'
+[21.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.ps1'
+[21.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.dsv'
+[21.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.sh'
+[21.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.bash'
+[21.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.zsh'
+[21.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/colcon-core/packages/air_lab_interfaces)
+[21.815s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab3' with build type 'ament_python'
+[21.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab3', 'ament_prefix_path')
+[21.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/hook/ament_prefix_path.ps1'
+[21.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/hook/ament_prefix_path.dsv'
+[21.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/hook/ament_prefix_path.sh'
+[21.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.921s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab5' with build type 'ament_python'
+[21.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab5', 'ament_prefix_path')
+[21.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/hook/ament_prefix_path.ps1'
+[21.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/hook/ament_prefix_path.dsv'
+[21.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/hook/ament_prefix_path.sh'
+[21.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.579s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/exploration'
+[29.580s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.054s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab3'
+[33.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[37.616s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab5'
+[37.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[37.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[37.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_common': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab_common/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab_common/build --no-deps symlink_data
+[37.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_bringup': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_bringup/build --no-deps symlink_data
+[37.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab2': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab2/build --no-deps symlink_data
+[37.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/build --no-deps symlink_data
+[59.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab3': CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/auksys_build/inst:/home/leime957/TDDE05/ros2_ws/install/project_interface:/home/leime957/TDDE05/ros2_ws/install/air_navigation:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib:/opt/auksys_build/inst/lib:/home/leime957/TDDE05/ros2_ws/install/project_interface/lib:/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib:/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab3/build --no-deps symlink_data
+[59.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab5': CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/auksys_build/inst:/home/leime957/TDDE05/ros2_ws/install/project_interface:/home/leime957/TDDE05/ros2_ws/install/air_navigation:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib:/opt/auksys_build/inst/lib:/home/leime957/TDDE05/ros2_ws/install/project_interface/lib:/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib:/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab5/build --no-deps symlink_data
+[59.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/exploration': CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface:/opt/auksys_build/inst:/home/leime957/TDDE05/ros2_ws/install/air_navigation:/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface/lib:/opt/auksys_build/inst/lib:/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib:/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib:/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/exploration/build --no-deps symlink_data
+[65.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab2', 'pythonpath_develop')
+[65.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_lab2/share/air_lab2/hook/pythonpath_develop.ps1'
+[65.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab2' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab2/build --no-deps symlink_data
+[65.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/build/air_lab2/share/air_lab2/hook/pythonpath_develop.dsv'
+[65.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_lab2/share/air_lab2/hook/pythonpath_develop.sh'
+[65.705s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab2' for CMake module files
+[65.709s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab2' for CMake config files
+[65.713s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib'
+[65.714s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab2/bin'
+[65.714s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/pkgconfig/air_lab2.pc'
+[65.715s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages'
+[65.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab2', 'pythonpath')
+[65.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/hook/pythonpath.ps1'
+[65.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/hook/pythonpath.dsv'
+[65.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/hook/pythonpath.sh'
+[65.728s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab2/bin'
+[65.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_lab2)
+[65.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/package.ps1'
+[65.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/package.dsv'
+[65.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/package.sh'
+[65.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/package.bash'
+[65.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2/package.zsh'
+[65.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_lab2/share/colcon-core/packages/air_lab2)
+[65.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_navigation_examples', 'pythonpath_develop')
+[65.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/share/air_navigation_examples/hook/pythonpath_develop.ps1'
+[65.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/build --no-deps symlink_data
+[65.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/share/air_navigation_examples/hook/pythonpath_develop.dsv'
+[65.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/share/air_navigation_examples/hook/pythonpath_develop.sh'
+[65.813s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples' for CMake module files
+[65.817s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples' for CMake config files
+[65.821s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib'
+[65.821s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/bin'
+[65.822s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/pkgconfig/air_navigation_examples.pc'
+[65.822s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages'
+[65.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_navigation_examples', 'pythonpath')
+[65.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/hook/pythonpath.ps1'
+[65.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/hook/pythonpath.dsv'
+[65.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/hook/pythonpath.sh'
+[65.836s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/bin'
+[65.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_navigation_examples)
+[65.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/package.ps1'
+[65.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/package.dsv'
+[65.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/package.sh'
+[65.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/package.bash'
+[65.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/air_navigation_examples/package.zsh'
+[65.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/share/colcon-core/packages/air_navigation_examples)
+[65.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab_common', 'pythonpath_develop')
+[65.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_lab_common/share/air_lab_common/hook/pythonpath_develop.ps1'
+[65.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/build/air_lab_common/share/air_lab_common/hook/pythonpath_develop.dsv'
+[65.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_common' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab_common/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab_common/build --no-deps symlink_data
+[65.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_lab_common/share/air_lab_common/hook/pythonpath_develop.sh'
+[65.883s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_common' for CMake module files
+[65.886s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_common' for CMake config files
+[65.890s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib'
+[65.891s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/bin'
+[65.891s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/pkgconfig/air_lab_common.pc'
+[65.892s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages'
+[65.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab_common', 'pythonpath')
+[65.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/hook/pythonpath.ps1'
+[65.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/hook/pythonpath.dsv'
+[65.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/hook/pythonpath.sh'
+[65.905s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/bin'
+[65.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_lab_common)
+[65.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/package.ps1'
+[65.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/package.dsv'
+[65.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/package.sh'
+[65.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/package.bash'
+[65.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/package.zsh'
+[65.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/colcon-core/packages/air_lab_common)
+[65.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_bringup', 'pythonpath_develop')
+[65.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_bringup/share/air_bringup/hook/pythonpath_develop.ps1'
+[65.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_bringup' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_bringup/build --no-deps symlink_data
+[65.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/build/air_bringup/share/air_bringup/hook/pythonpath_develop.dsv'
+[65.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_bringup/share/air_bringup/hook/pythonpath_develop.sh'
+[65.937s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_bringup' for CMake module files
+[65.940s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_bringup' for CMake config files
+[65.945s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib'
+[65.945s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_bringup/bin'
+[65.945s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/pkgconfig/air_bringup.pc'
+[65.946s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages'
+[65.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_bringup', 'pythonpath')
+[65.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/hook/pythonpath.ps1'
+[65.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/hook/pythonpath.dsv'
+[65.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/hook/pythonpath.sh'
+[65.977s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_bringup/bin'
+[65.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_bringup)
+[65.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/package.ps1'
+[65.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/package.dsv'
+[65.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/package.sh'
+[65.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/package.bash'
+[65.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/package.zsh'
+[65.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/colcon-core/packages/air_bringup)
+[72.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab3', 'pythonpath_develop')
+[72.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_lab3/share/air_lab3/hook/pythonpath_develop.ps1'
+[72.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab3' returned '0': CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/auksys_build/inst:/home/leime957/TDDE05/ros2_ws/install/project_interface:/home/leime957/TDDE05/ros2_ws/install/air_navigation:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib:/opt/auksys_build/inst/lib:/home/leime957/TDDE05/ros2_ws/install/project_interface/lib:/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib:/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab3/build --no-deps symlink_data
+[72.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/build/air_lab3/share/air_lab3/hook/pythonpath_develop.dsv'
+[72.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_lab3/share/air_lab3/hook/pythonpath_develop.sh'
+[72.166s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab3' for CMake module files
+[72.170s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab3' for CMake config files
+[72.175s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab3/lib'
+[72.175s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab3/bin'
+[72.175s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/pkgconfig/air_lab3.pc'
+[72.176s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/python3.10/site-packages'
+[72.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab3', 'pythonpath')
+[72.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/hook/pythonpath.ps1'
+[72.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/hook/pythonpath.dsv'
+[72.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/hook/pythonpath.sh'
+[72.187s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab3/bin'
+[72.187s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_lab3)
+[72.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/package.ps1'
+[72.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/package.dsv'
+[72.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/package.sh'
+[72.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/package.bash'
+[72.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3/package.zsh'
+[72.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_lab3/share/colcon-core/packages/air_lab3)
+[72.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab5', 'pythonpath_develop')
+[72.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_lab5/share/air_lab5/hook/pythonpath_develop.ps1'
+[72.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab5' returned '0': CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/auksys_build/inst:/home/leime957/TDDE05/ros2_ws/install/project_interface:/home/leime957/TDDE05/ros2_ws/install/air_navigation:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib:/opt/auksys_build/inst/lib:/home/leime957/TDDE05/ros2_ws/install/project_interface/lib:/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib:/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab5/build --no-deps symlink_data
+[72.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/build/air_lab5/share/air_lab5/hook/pythonpath_develop.dsv'
+[72.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/air_lab5/share/air_lab5/hook/pythonpath_develop.sh'
+[72.256s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab5' for CMake module files
+[72.261s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab5' for CMake config files
+[72.266s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab5/lib'
+[72.267s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab5/bin'
+[72.267s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab5/lib/pkgconfig/air_lab5.pc'
+[72.267s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab5/lib/python3.10/site-packages'
+[72.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_lab5', 'pythonpath')
+[72.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/hook/pythonpath.ps1'
+[72.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/hook/pythonpath.dsv'
+[72.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/hook/pythonpath.sh'
+[72.281s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_lab5/bin'
+[72.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_lab5)
+[72.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/package.ps1'
+[72.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/package.dsv'
+[72.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/package.sh'
+[72.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/package.bash'
+[72.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/air_lab5/package.zsh'
+[72.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_lab5/share/colcon-core/packages/air_lab5)
+[72.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('exploration', 'pythonpath_develop')
+[72.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/exploration/share/exploration/hook/pythonpath_develop.ps1'
+[72.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/build/exploration/share/exploration/hook/pythonpath_develop.dsv'
+[72.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/exploration' returned '0': CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface:/opt/auksys_build/inst:/home/leime957/TDDE05/ros2_ws/install/air_navigation:/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface/lib:/opt/auksys_build/inst/lib:/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib:/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib:/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/exploration/build --no-deps symlink_data
+[72.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/build/exploration/share/exploration/hook/pythonpath_develop.sh'
+[72.313s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/exploration' for CMake module files
+[72.317s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/exploration' for CMake config files
+[72.321s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/exploration/lib'
+[72.322s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/exploration/bin'
+[72.322s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/exploration/lib/pkgconfig/exploration.pc'
+[72.323s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/exploration/lib/python3.10/site-packages'
+[72.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('exploration', 'pythonpath')
+[72.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/hook/pythonpath.ps1'
+[72.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/hook/pythonpath.dsv'
+[72.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/hook/pythonpath.sh'
+[72.333s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/exploration/bin'
+[72.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exploration)
+[72.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/package.ps1'
+[72.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/package.dsv'
+[72.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/package.sh'
+[72.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/package.bash'
+[72.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration/package.zsh'
+[72.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/exploration/share/colcon-core/packages/exploration)
+[85.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_navigation -- -j20 -l20
+[85.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_navigation
+[85.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_navigation)
+[85.201s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation' for CMake module files
+[85.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_navigation
+[85.204s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation' for CMake config files
+[85.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_navigation', 'cmake_prefix_path')
+[85.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/cmake_prefix_path.ps1'
+[85.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/cmake_prefix_path.dsv'
+[85.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/cmake_prefix_path.sh'
+[85.221s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib'
+[85.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_navigation', 'ld_library_path_lib')
+[85.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/ld_library_path_lib.ps1'
+[85.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/ld_library_path_lib.dsv'
+[85.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/ld_library_path_lib.sh'
+[85.231s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/bin'
+[85.232s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/pkgconfig/air_navigation.pc'
+[85.233s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/python3.10/site-packages'
+[85.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_navigation', 'pythonpath')
+[85.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/pythonpath.ps1'
+[85.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/pythonpath.dsv'
+[85.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/pythonpath.sh'
+[85.242s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/bin'
+[85.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.ps1'
+[85.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.dsv'
+[85.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.sh'
+[85.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.bash'
+[85.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.zsh'
+[85.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/colcon-core/packages/air_navigation)
+[85.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(air_navigation)
+[85.267s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation' for CMake module files
+[85.270s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation' for CMake config files
+[85.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_navigation', 'cmake_prefix_path')
+[85.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/cmake_prefix_path.ps1'
+[85.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/cmake_prefix_path.dsv'
+[85.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/cmake_prefix_path.sh'
+[85.284s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib'
+[85.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_navigation', 'ld_library_path_lib')
+[85.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/ld_library_path_lib.ps1'
+[85.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/ld_library_path_lib.dsv'
+[85.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/ld_library_path_lib.sh'
+[85.294s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/bin'
+[85.295s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/pkgconfig/air_navigation.pc'
+[85.296s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/python3.10/site-packages'
+[85.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('air_navigation', 'pythonpath')
+[85.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/pythonpath.ps1'
+[85.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/pythonpath.dsv'
+[85.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/hook/pythonpath.sh'
+[85.305s] Level 1:colcon.colcon_core.environment:checking '/home/leime957/TDDE05/ros2_ws/install/air_navigation/bin'
+[85.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.ps1'
+[85.309s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.dsv'
+[85.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.sh'
+[85.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.bash'
+[85.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.zsh'
+[85.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leime957/TDDE05/ros2_ws/install/air_navigation/share/colcon-core/packages/air_navigation)
+[85.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[85.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[85.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[85.322s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[85.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[85.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[85.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[85.412s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[85.477s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[85.477s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leime957/TDDE05/ros2_ws/install/local_setup.ps1'
+[85.482s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leime957/TDDE05/ros2_ws/install/_local_setup_util_ps1.py'
+[85.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leime957/TDDE05/ros2_ws/install/setup.ps1'
+[85.506s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leime957/TDDE05/ros2_ws/install/local_setup.sh'
+[85.510s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leime957/TDDE05/ros2_ws/install/_local_setup_util_sh.py'
+[85.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leime957/TDDE05/ros2_ws/install/setup.sh'
+[85.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leime957/TDDE05/ros2_ws/install/local_setup.bash'
+[85.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leime957/TDDE05/ros2_ws/install/setup.bash'
+[85.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leime957/TDDE05/ros2_ws/install/local_setup.zsh'
+[85.556s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leime957/TDDE05/ros2_ws/install/setup.zsh'

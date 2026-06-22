@@ -1,0 +1,17 @@
+[31.321s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/build --no-deps symlink_data
+[41.338s] running develop
+[49.766s] running egg_info
+[49.767s] writing air_navigation_examples.egg-info/PKG-INFO
+[49.784s] writing dependency_links to air_navigation_examples.egg-info/dependency_links.txt
+[49.784s] writing entry points to air_navigation_examples.egg-info/entry_points.txt
+[49.788s] writing requirements to air_navigation_examples.egg-info/requires.txt
+[49.788s] writing top-level names to air_navigation_examples.egg-info/top_level.txt
+[49.792s] reading manifest file 'air_navigation_examples.egg-info/SOURCES.txt'
+[49.795s] writing manifest file 'air_navigation_examples.egg-info/SOURCES.txt'
+[49.803s] running build_ext
+[49.803s] Creating /home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages/air-navigation-examples.egg-link (link to .)
+[49.810s] Installing visualize_human script to /home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/air_navigation_examples
+[49.816s] 
+[49.817s] Installed /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples
+[49.817s] running symlink_data
+[50.035s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/build --no-deps symlink_data

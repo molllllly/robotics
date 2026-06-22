@@ -1,0 +1,16 @@
+[48.503s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_bringup': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_bringup/build --no-deps symlink_data
+[61.895s] running develop
+[72.714s] running egg_info
+[72.714s] writing air_bringup.egg-info/PKG-INFO
+[72.714s] writing dependency_links to air_bringup.egg-info/dependency_links.txt
+[72.714s] writing entry points to air_bringup.egg-info/entry_points.txt
+[72.716s] writing requirements to air_bringup.egg-info/requires.txt
+[72.717s] writing top-level names to air_bringup.egg-info/top_level.txt
+[72.777s] reading manifest file 'air_bringup.egg-info/SOURCES.txt'
+[72.782s] writing manifest file 'air_bringup.egg-info/SOURCES.txt'
+[72.882s] running build_ext
+[72.882s] Creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages/air-bringup.egg-link (link to .)
+[72.888s] 
+[72.888s] Installed /home/leime957/TDDE05/ros2_ws/build/air_bringup
+[72.888s] running symlink_data
+[73.221s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_bringup' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_bringup/build --no-deps symlink_data

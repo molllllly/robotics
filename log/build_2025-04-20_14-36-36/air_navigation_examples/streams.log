@@ -1,0 +1,15 @@
+[29.523s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/build --no-deps symlink_data
+[39.308s] running develop
+[47.417s] running egg_info
+[47.418s] writing air_navigation_examples.egg-info/PKG-INFO
+[47.422s] writing dependency_links to air_navigation_examples.egg-info/dependency_links.txt
+[47.424s] writing entry points to air_navigation_examples.egg-info/entry_points.txt
+[47.426s] writing requirements to air_navigation_examples.egg-info/requires.txt
+[47.428s] writing top-level names to air_navigation_examples.egg-info/top_level.txt
+[47.442s] reading manifest file 'air_navigation_examples.egg-info/SOURCES.txt'
+[47.444s] writing manifest file 'air_navigation_examples.egg-info/SOURCES.txt'
+[47.489s] running build_ext
+[47.490s] Creating /home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages/air-navigation-examples.egg-link (link to .)
+[47.498s] 
+[47.498s] Installed /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples
+[47.499s] running symlink_data

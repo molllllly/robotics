@@ -1,0 +1,19 @@
+[53.187s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/build --no-deps symlink_data
+[62.096s] running develop
+[69.034s] running egg_info
+[69.035s] writing air_navigation_examples.egg-info/PKG-INFO
+[69.037s] writing dependency_links to air_navigation_examples.egg-info/dependency_links.txt
+[69.040s] writing entry points to air_navigation_examples.egg-info/entry_points.txt
+[69.042s] writing requirements to air_navigation_examples.egg-info/requires.txt
+[69.044s] writing top-level names to air_navigation_examples.egg-info/top_level.txt
+[69.079s] reading manifest file 'air_navigation_examples.egg-info/SOURCES.txt'
+[69.100s] writing manifest file 'air_navigation_examples.egg-info/SOURCES.txt'
+[69.151s] running build_ext
+[69.151s] Creating /home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages/air-navigation-examples.egg-link (link to .)
+[69.156s] Installing ana script to /home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/air_navigation_examples
+[69.159s] Installing anasimple script to /home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/air_navigation_examples
+[69.162s] Installing visualize_human script to /home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/air_navigation_examples
+[69.166s] 
+[69.166s] Installed /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples
+[69.166s] running symlink_data
+[69.432s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_navigation_examples/build --no-deps symlink_data

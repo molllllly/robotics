@@ -1,0 +1,35 @@
+[28.236s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_bringup': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_bringup/build --no-deps symlink_data
+[37.725s] running develop
+[60.867s] running egg_info
+[60.867s] creating air_bringup.egg-info
+[60.868s] writing air_bringup.egg-info/PKG-INFO
+[60.875s] writing dependency_links to air_bringup.egg-info/dependency_links.txt
+[60.877s] writing entry points to air_bringup.egg-info/entry_points.txt
+[60.880s] writing requirements to air_bringup.egg-info/requires.txt
+[60.881s] writing top-level names to air_bringup.egg-info/top_level.txt
+[60.883s] writing manifest file 'air_bringup.egg-info/SOURCES.txt'
+[60.923s] reading manifest file 'air_bringup.egg-info/SOURCES.txt'
+[60.925s] writing manifest file 'air_bringup.egg-info/SOURCES.txt'
+[61.031s] running build_ext
+[61.032s] Creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages/air-bringup.egg-link (link to .)
+[61.039s] 
+[61.040s] Installed /home/leime957/TDDE05/ros2_ws/build/air_bringup
+[61.040s] running symlink_data
+[61.040s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index
+[61.041s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index/resource_index
+[61.041s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index/resource_index/packages
+[61.044s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/resource/air_bringup -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index/resource_index/packages
+[61.050s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/package.xml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+[61.053s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/launch/create3_nodes.launch.py -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+[61.054s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/launch/turtle2.launch.py -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+[61.055s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/launch/turtle.launch.py -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+[61.056s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+[61.058s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/config/nav2.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+[61.059s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/config/nav2_test_py_controller.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+[61.060s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/config/nav2_test_py_dwb.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+[61.060s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+[61.061s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+[61.062s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.pgm -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+[61.063s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.posegraph -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+[61.064s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.data -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+[61.472s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_bringup' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_bringup/build --no-deps symlink_data

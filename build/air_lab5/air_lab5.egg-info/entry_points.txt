@@ -1,0 +1,4 @@
+[console_scripts]
+decision = air_lab5.decision_node:main
+text_command = air_lab5.text_command_node:main
+

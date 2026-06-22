@@ -1,0 +1,25 @@
+[28.135s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_common': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab_common/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab_common/build --no-deps symlink_data
+[37.656s] running develop
+[60.796s] running egg_info
+[60.797s] creating air_lab_common.egg-info
+[60.797s] writing air_lab_common.egg-info/PKG-INFO
+[60.802s] writing dependency_links to air_lab_common.egg-info/dependency_links.txt
+[60.804s] writing entry points to air_lab_common.egg-info/entry_points.txt
+[60.805s] writing requirements to air_lab_common.egg-info/requires.txt
+[60.807s] writing top-level names to air_lab_common.egg-info/top_level.txt
+[60.809s] writing manifest file 'air_lab_common.egg-info/SOURCES.txt'
+[60.843s] reading manifest file 'air_lab_common.egg-info/SOURCES.txt'
+[60.845s] writing manifest file 'air_lab_common.egg-info/SOURCES.txt'
+[60.958s] running build_ext
+[60.958s] Creating /home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages/air-lab-common.egg-link (link to .)
+[60.964s] 
+[60.964s] Installed /home/leime957/TDDE05/ros2_ws/build/air_lab_common
+[60.964s] running symlink_data
+[60.964s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/ament_index
+[60.965s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/ament_index/resource_index
+[60.966s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/ament_index/resource_index/packages
+[60.967s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_lab_common/resource/air_lab_common -> /home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/ament_index/resource_index/packages
+[60.968s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_lab_common/package.xml -> /home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common
+[60.969s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/screen
+[60.971s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_lab_common/screen/screen.tdde05 -> /home/leime957/TDDE05/ros2_ws/install/air_lab_common/share/air_lab_common/screen
+[61.010s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_common' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab_common/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab_common/build --no-deps symlink_data

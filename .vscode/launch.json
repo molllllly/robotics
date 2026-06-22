@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ROS2 Debug air_bringup Launch",
+      "type": "python",
+      "request": "launch",
+      "program": "/opt/ros/humble/bin/ros2",
+      "args": [
+        "launch",
+        "air_bringup",
+        "turtle.launch.py",
+        "world:=office_2",
+        "nav2_params_file:=/home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config/nav2_test_py_controller.yaml"
+      ],
+      "env": {
+        "LD_PRELOAD": "/lib/x86_64-linux-gnu/libpython3.10.so.1.0"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

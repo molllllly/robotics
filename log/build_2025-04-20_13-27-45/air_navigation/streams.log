@@ -1,0 +1,113 @@
+[12.602s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake /home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leime957/TDDE05/ros2_ws/install/air_navigation
+[15.369s] -- The C compiler identification is GNU 11.4.0
+[15.369s] -- The CXX compiler identification is GNU 11.4.0
+[15.369s] -- Detecting C compiler ABI info
+[15.369s] -- Detecting C compiler ABI info - done
+[15.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[15.369s] -- Detecting C compile features
+[15.369s] -- Detecting C compile features - done
+[15.369s] -- Detecting CXX compiler ABI info
+[15.369s] -- Detecting CXX compiler ABI info - done
+[15.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[15.370s] -- Detecting CXX compile features
+[15.370s] -- Detecting CXX compile features - done
+[15.370s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[16.439s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[16.950s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[19.450s] -- Found nav2_dwb_controller: 1.1.17 (/opt/ros/humble/share/nav2_dwb_controller/cmake)
+[19.998s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[27.326s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[29.055s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[30.309s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[31.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[32.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[34.620s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[34.827s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[36.511s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[36.963s] -- Found FastRTPS: /opt/ros/humble/include  
+[37.576s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[38.310s] -- Looking for pthread.h
+[41.219s] -- Looking for pthread.h - found
+[41.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[43.115s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[43.130s] -- Found Threads: TRUE  
+[46.920s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[52.114s] -- Found nav2_core: 1.1.17 (/opt/ros/humble/share/nav2_core/cmake)
+[65.903s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[65.904s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[67.473s] -- Found nav2_common: 1.1.17 (/opt/ros/humble/share/nav2_common/cmake)
+[67.578s] -- Found PythonInterp: /usr/bin/python3.10 (found suitable version "3.10.12", minimum required is "3.10") 
+[67.648s] -- Found PythonInterp: /usr/bin/python3.10 (found suitable version "3.10.12", minimum required is "3.0") 
+[67.777s] <string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[67.788s] <string>:1: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+[67.793s] -- Python system site-packages directory: /usr/lib/python3/dist-packages
+[67.794s] -- Found PythonLibrary: /usr/lib/x86_64-linux-gnu/libpython3.10.so (Required is at least version "3.10") 
+[67.897s] -- Found SIP version: 4.19.25
+[67.898s] -- Setting build type to Release as none was specified.
+[67.898s] LIBS: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[67.898s] DEPS: rclcpp;nav2_dwb_controller;pluginlib;nav2_util;nav2_costmap_2d
+[68.037s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[68.881s] 041319 - The version of SIP found expressed as a 6 digit hex number suitable for comparison as a string.
+[68.882s] 4.19.25 - The version of SIP found as a human readable string.
+[68.882s] /usr/bin/sip - Path and filename of the SIP command line executable.
+[68.882s] /usr/include/python3.10 - Directory holding the SIP C++ header file.
+[68.882s] /usr/share/sip - default SIP dir
+[69.011s] -- Added test 'copyright' to check source files copyright and LICENSE
+[69.086s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[69.087s] -- Configured cppcheck include dirs: /home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_navigation/include
+[69.087s] -- Configured cppcheck exclude dirs and/or files: 
+[69.156s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[69.156s] -- Configured cpplint exclude dirs and/or files: 
+[69.172s] -- Added test 'flake8' to check Python code syntax and style conventions
+[69.193s] -- Added test 'lint_cmake' to check CMake code style
+[69.204s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[69.267s] -- Added test 'uncrustify' to check C / C++ code style
+[69.268s] -- Configured uncrustify additional arguments: 
+[69.283s] -- Added test 'xmllint' to check XML markup files
+[69.367s] -- Configuring done
+[70.030s] -- Generating done
+[70.109s] -- Build files have been written to: /home/leime957/TDDE05/ros2_ws/build/air_navigation
+[70.132s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake /home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/air_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leime957/TDDE05/ros2_ws/install/air_navigation
+[70.141s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_navigation -- -j20 -l20
+[70.615s] [ 25%] [32mBuilding CXX object CMakeFiles/air_navigation.dir/src/python_trajectory_generator.cpp.o[0m
+[70.616s] [ 25%] [32mBuilding CXX object CMakeFiles/air_navigation.dir/src/python_trajectory_critic.cpp.o[0m
+[70.618s] [ 50%] [32mBuilding CXX object CMakeFiles/air_navigation.dir/src/python_controller.cpp.o[0m
+[70.618s] [ 50%] [32mBuilding CXX object CMakeFiles/air_navigation.dir/src/python_interpreter.cpp.o[0m
+[87.694s] [ 62%] [32m[1mLinking CXX shared library libair_navigation.so[0m
+[88.424s] [ 62%] Built target air_navigation
+[88.498s] [ 75%] [34m[1mGenerating air_navigation/sipair_navigation_part0.cpp[0m
+[88.564s] 
+[88.758s] [ 87%] [32mBuilding CXX object python/CMakeFiles/python_module_air_navigation_.dir/air_navigation/sipair_navigation_part0.cpp.o[0m
+[99.347s] [100%] [32m[1mLinking CXX shared library air_navigation_.so[0m
+[101.511s] [100%] Built target python_module_air_navigation_
+[101.559s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_navigation -- -j20 -l20
+[101.569s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_navigation
+[101.603s] -- Install configuration: "Release"
+[101.606s] -- Execute custom install script
+[101.612s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/libair_navigation.so
+[101.655s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/python3.10/site-packages///air_navigation_.so
+[101.695s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/python3.10/site-packages//air_navigation/__init__.py
+[101.753s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/library_path.sh
+[101.793s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/library_path.dsv
+[101.831s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation//air_navigation_plugins.xml
+[101.871s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation//air_navigation_plugins.xml
+[101.879s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/package_run_dependencies/air_navigation
+[101.918s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/parent_prefix_path/air_navigation
+[101.961s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/ament_prefix_path.sh
+[101.997s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/ament_prefix_path.dsv
+[102.033s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/path.sh
+[102.072s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/path.dsv
+[102.109s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.bash
+[102.148s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.sh
+[102.187s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.zsh
+[102.223s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.dsv
+[102.264s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.dsv
+[102.304s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/packages/air_navigation
+[102.346s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/nav2_core__pluginlib__plugin/air_navigation
+[102.387s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/dwb_core__pluginlib__plugin/air_navigation
+[102.433s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/ament_cmake_export_libraries-extras.cmake
+[102.473s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+[102.532s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/air_navigationConfig.cmake
+[102.606s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/air_navigationConfig-version.cmake
+[102.642s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.xml
+[102.691s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_navigation

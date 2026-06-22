@@ -1,0 +1,34 @@
+[29.603s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_bringup': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_bringup/build --no-deps symlink_data
+[39.424s] running develop
+[47.450s] running egg_info
+[47.451s] creating air_bringup.egg-info
+[47.452s] writing air_bringup.egg-info/PKG-INFO
+[47.456s] writing dependency_links to air_bringup.egg-info/dependency_links.txt
+[47.458s] writing entry points to air_bringup.egg-info/entry_points.txt
+[47.460s] writing requirements to air_bringup.egg-info/requires.txt
+[47.461s] writing top-level names to air_bringup.egg-info/top_level.txt
+[47.463s] writing manifest file 'air_bringup.egg-info/SOURCES.txt'
+[47.516s] reading manifest file 'air_bringup.egg-info/SOURCES.txt'
+[47.519s] writing manifest file 'air_bringup.egg-info/SOURCES.txt'
+[47.592s] running build_ext
+[47.592s] Creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages/air-bringup.egg-link (link to .)
+[47.598s] 
+[47.598s] Installed /home/leime957/TDDE05/ros2_ws/build/air_bringup
+[47.599s] running symlink_data
+[47.600s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index
+[47.600s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index/resource_index
+[47.601s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index/resource_index/packages
+[47.603s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/resource/air_bringup -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index/resource_index/packages
+[47.604s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/package.xml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+[47.605s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/launch/turtle.launch.py -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+[47.606s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/launch/turtle2.launch.py -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+[47.608s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/launch/create3_nodes.launch.py -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+[47.609s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+[47.610s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/config/nav2_test_py_dwb.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+[47.611s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/config/nav2_test_py_controller.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+[47.612s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/config/nav2.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+[47.612s] creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+[47.613s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.pgm -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+[47.614s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+[47.615s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.posegraph -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+[47.617s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.data -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps

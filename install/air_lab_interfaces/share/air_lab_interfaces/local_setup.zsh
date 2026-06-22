@@ -1,0 +1,1 @@
+/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces/ament_cmake_environment_hooks/local_setup.zsh

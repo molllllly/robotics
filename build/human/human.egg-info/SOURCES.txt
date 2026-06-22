@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+human/__init__.py
+human/human_explore.py
+human.egg-info/PKG-INFO
+human.egg-info/SOURCES.txt
+human.egg-info/dependency_links.txt
+human.egg-info/entry_points.txt
+human.egg-info/requires.txt
+human.egg-info/top_level.txt
+human.egg-info/zip-safe
+resource/human

@@ -1,0 +1,1 @@
+Goal[] goals         # Name of the TST file to execute, it should be a full path

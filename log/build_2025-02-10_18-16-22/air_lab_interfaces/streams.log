@@ -1,0 +1,206 @@
+[2.421s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake /home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces
+[3.706s] -- The C compiler identification is GNU 11.4.0
+[4.309s] -- The CXX compiler identification is GNU 11.4.0
+[4.438s] -- Detecting C compiler ABI info
+[5.357s] -- Detecting C compiler ABI info - done
+[5.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.373s] -- Detecting C compile features
+[5.379s] -- Detecting C compile features - done
+[5.448s] -- Detecting CXX compiler ABI info
+[6.233s] -- Detecting CXX compiler ABI info - done
+[6.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.249s] -- Detecting CXX compile features
+[6.250s] -- Detecting CXX compile features - done
+[6.432s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.292s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.653s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.842s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[11.271s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.495s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.875s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.150s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.328s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[12.436s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.723s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[15.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.946s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.007s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[16.056s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[16.158s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[16.159s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.159s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[16.159s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[16.206s] -- Found PythonExtra: .so  
+[16.544s] -- Added test 'lint_cmake' to check CMake code style
+[16.573s] -- Added test 'xmllint' to check XML markup files
+[16.805s] -- Configuring done
+[17.991s] -- Generating done
+[18.189s] -- Build files have been written to: /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces
+[18.196s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake /home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces
+[18.204s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces -- -j20 -l20
+[18.526s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[18.611s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.686s] [  6%] Built target ament_cmake_python_symlink_air_lab_interfaces
+[19.431s] [  6%] Built target air_lab_interfaces__cpp
+[19.603s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.607s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.607s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.608s] [ 19%] [32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_generator_c.dir/rosidl_generator_c/air_lab_interfaces/srv/detail/execute_tst__functions.c.o[0m
+[20.437s] [ 22%] [32m[1mLinking C shared library libair_lab_interfaces__rosidl_generator_c.so[0m
+[20.843s] [ 22%] Built target air_lab_interfaces__rosidl_generator_c
+[20.848s] [ 25%] [32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/air_lab_interfaces/srv/execute_tst__type_support.cpp.o[0m
+[21.042s] [ 29%] [32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/air_lab_interfaces/srv/detail/execute_tst__type_support.cpp.o[0m
+[21.091s] [ 32%] [32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/air_lab_interfaces/srv/detail/dds_fastrtps/execute_tst__type_support.cpp.o[0m
+[21.121s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.131s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.142s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.002s] [ 45%] [32m[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_cpp.so[0m
+[23.089s] [ 48%] [32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/air_lab_interfaces/srv/execute_tst__type_support.cpp.o[0m
+[23.242s] [ 54%] [32m[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[23.243s] [ 54%] [32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/air_lab_interfaces/srv/detail/execute_tst__type_support_c.cpp.o[0m
+[23.248s] [ 58%] [32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/air_lab_interfaces/srv/detail/execute_tst__type_support.c.o[0m
+[23.634s] [ 61%] [32m[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_c.so[0m
+[23.722s] [ 64%] [32m[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.884s] [ 67%] [32m[1mLinking C shared library libair_lab_interfaces__rosidl_typesupport_introspection_c.so[0m
+[23.886s] [ 67%] Built target air_lab_interfaces__rosidl_typesupport_cpp
+[24.002s] [ 67%] Built target air_lab_interfaces__rosidl_typesupport_introspection_cpp
+[24.118s] running egg_info
+[24.120s] creating air_lab_interfaces.egg-info
+[24.122s] writing air_lab_interfaces.egg-info/PKG-INFO
+[24.126s] writing dependency_links to air_lab_interfaces.egg-info/dependency_links.txt
+[24.130s] writing top-level names to air_lab_interfaces.egg-info/top_level.txt
+[24.133s] writing manifest file 'air_lab_interfaces.egg-info/SOURCES.txt'
+[24.153s] reading manifest file 'air_lab_interfaces.egg-info/SOURCES.txt'
+[24.156s] writing manifest file 'air_lab_interfaces.egg-info/SOURCES.txt'
+[24.225s] [ 67%] Built target air_lab_interfaces__rosidl_typesupport_c
+[24.285s] [ 67%] Built target ament_cmake_python_build_air_lab_interfaces_egg
+[24.290s] [ 67%] Built target air_lab_interfaces__rosidl_typesupport_fastrtps_cpp
+[24.293s] [ 67%] Built target air_lab_interfaces__rosidl_typesupport_introspection_c
+[24.515s] [ 70%] [32m[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[24.645s] [ 70%] Built target air_lab_interfaces__rosidl_typesupport_fastrtps_c
+[24.720s] [ 70%] Built target air_lab_interfaces
+[24.798s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.353s] [ 74%] Built target air_lab_interfaces__py
+[25.438s] [ 77%] [32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_generator_py.dir/rosidl_generator_py/air_lab_interfaces/srv/_execute_tst_s.c.o[0m
+[25.920s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/air_lab_interfaces/libair_lab_interfaces__rosidl_generator_py.so[0m
+[26.020s] [ 80%] Built target air_lab_interfaces__rosidl_generator_py
+[26.170s] [ 83%] [32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.175s] [ 90%] [32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[26.175s] [ 90%] [32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[26.612s] [100%] [32m[1mLinking C shared library rosidl_generator_py/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[26.613s] [100%] [32m[1mLinking C shared library rosidl_generator_py/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[26.613s] [100%] [32m[1mLinking C shared library rosidl_generator_py/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[26.812s] [100%] Built target air_lab_interfaces__rosidl_typesupport_c__pyext
+[26.813s] [100%] Built target air_lab_interfaces__rosidl_typesupport_introspection_c__pyext
+[26.815s] [100%] Built target air_lab_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[26.882s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces -- -j20 -l20
+[26.917s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces
+[26.947s] -- Install configuration: ""
+[26.951s] -- Execute custom install script
+[26.963s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/ament_index/resource_index/rosidl_interfaces/air_lab_interfaces
+[27.003s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_generator_c__visibility_control.h
+[27.246s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__functions.h
+[27.485s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__struct.h
+[27.506s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__type_support.h
+[27.528s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/execute_tst.h
+[27.559s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/library_path.sh
+[27.586s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/library_path.dsv
+[27.621s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.659s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__rosidl_typesupport_fastrtps_c.h
+[27.687s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.710s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__builder.hpp
+[27.964s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__struct.hpp
+[27.995s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__traits.hpp
+[28.022s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__type_support.hpp
+[28.049s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/execute_tst.hpp
+[28.323s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[28.347s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__rosidl_typesupport_fastrtps_cpp.hpp
+[28.371s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[28.397s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__rosidl_typesupport_introspection_c.h
+[28.426s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__rosidl_typesupport_introspection_cpp.hpp
+[28.451s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/pythonpath.sh
+[28.475s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/pythonpath.dsv
+[28.507s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[28.530s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[28.555s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[28.579s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[28.612s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/__init__.py
+[28.646s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_c.c
+[28.668s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[28.690s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[28.715s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[28.967s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[28.989s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[29.022s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/libair_lab_interfaces__rosidl_generator_py.so
+[29.051s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/__init__.py
+[29.075s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/_execute_tst.py
+[29.098s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/_execute_tst_s.c
+[29.125s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[29.373s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[29.377s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[29.384s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/srv/ExecuteTst.idl
+[29.408s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/srv/ExecuteTst.srv
+[29.429s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/srv/ExecuteTst_Request.msg
+[29.454s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/srv/ExecuteTst_Response.msg
+[29.481s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/ament_index/resource_index/package_run_dependencies/air_lab_interfaces
+[29.509s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/ament_index/resource_index/parent_prefix_path/air_lab_interfaces
+[29.532s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/ament_prefix_path.sh
+[29.557s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/ament_prefix_path.dsv
+[29.680s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/path.sh
+[29.710s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/path.dsv
+[29.733s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/local_setup.bash
+[30.001s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/local_setup.sh
+[30.035s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/local_setup.zsh
+[30.064s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/local_setup.dsv
+[30.094s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.dsv
+[30.126s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/ament_index/resource_index/packages/air_lab_interfaces
+[30.156s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/rosidl_cmake-extras.cmake
+[30.408s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.435s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[30.459s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[30.722s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[30.754s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.778s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.804s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfacesConfig.cmake
+[30.829s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfacesConfig-version.cmake
+[30.853s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.xml
+[31.122s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_generator_c.so
+[31.136s] -- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_generator_c.so" to ""
+[31.138s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_fastrtps_c.so
+[31.152s] -- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[31.154s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[31.170s] -- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.172s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_introspection_c.so
+[31.185s] -- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[31.187s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_c.so
+[31.200s] -- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_c.so" to ""
+[31.202s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_introspection_cpp.so
+[31.217s] -- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[31.218s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_cpp.so
+[31.232s] -- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_cpp.so" to ""
+[31.401s] Listing '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces'...
+[31.401s] Compiling '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/__init__.py'...
+[31.401s] Listing '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv'...
+[31.401s] Compiling '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/__init__.py'...
+[31.401s] Compiling '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/_execute_tst.py'...
+[31.407s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_generator_py.so
+[31.421s] -- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_generator_py.so" to ""
+[31.422s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_cExport.cmake
+[31.432s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_cExport-noconfig.cmake
+[31.442s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[31.452s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[31.462s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_cppExport.cmake
+[31.472s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.482s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[31.737s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[31.748s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.995s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_cExport.cmake
+[32.004s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[32.014s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[32.024s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[32.033s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_cppExport.cmake
+[32.043s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[32.053s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_pyExport.cmake
+[32.064s] -- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[32.077s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces

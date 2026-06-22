@@ -1,0 +1,122 @@
+[0.253s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/project_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/project_interface -- -j20 -l20
+[8.937s] [  3%] Built target project_interface__cpp
+[8.937s] [  3%] Built target ament_cmake_python_symlink_project_interface
+[8.937s] [ 12%] Built target project_interface__rosidl_generator_c
+[8.937s] [ 22%] Built target project_interface__rosidl_typesupport_cpp
+[8.937s] [ 38%] Built target project_interface__rosidl_typesupport_introspection_cpp
+[8.937s] [ 41%] Built target project_interface__rosidl_typesupport_fastrtps_cpp
+[8.937s] [ 51%] Built target project_interface__rosidl_typesupport_c
+[8.937s] [ 61%] Built target project_interface__rosidl_typesupport_fastrtps_c
+[8.937s] [ 70%] Built target project_interface__rosidl_typesupport_introspection_c
+[8.937s] [ 70%] Built target project_interface
+[8.937s] [ 74%] Built target project_interface__py
+[8.937s] [ 80%] Built target project_interface__rosidl_generator_py
+[8.937s] [100%] Built target project_interface__rosidl_typesupport_introspection_c__pyext
+[8.937s] [100%] Built target project_interface__rosidl_typesupport_c__pyext
+[8.937s] [100%] Built target project_interface__rosidl_typesupport_fastrtps_c__pyext
+[8.937s] running egg_info
+[8.938s] writing project_interface.egg-info/PKG-INFO
+[8.938s] writing dependency_links to project_interface.egg-info/dependency_links.txt
+[8.938s] writing top-level names to project_interface.egg-info/top_level.txt
+[8.938s] reading manifest file 'project_interface.egg-info/SOURCES.txt'
+[8.938s] writing manifest file 'project_interface.egg-info/SOURCES.txt'
+[8.938s] [100%] Built target ament_cmake_python_build_project_interface_egg
+[8.938s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/project_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/project_interface -- -j20 -l20
+[8.986s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/project_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/project_interface
+[12.917s] -- Install configuration: ""
+[12.917s] -- Execute custom install script
+[12.917s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/ament_index/resource_index/rosidl_interfaces/project_interface
+[12.917s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/msg/rosidl_generator_c__visibility_control.h
+[12.917s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__functions.h
+[12.917s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__struct.h
+[12.917s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__type_support.h
+[12.918s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/explore_goal.h
+[12.918s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/environment/library_path.sh
+[12.919s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/environment/library_path.dsv
+[12.919s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.919s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__rosidl_typesupport_fastrtps_c.h
+[12.919s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.920s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__builder.hpp
+[12.920s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__struct.hpp
+[12.920s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__traits.hpp
+[12.920s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__type_support.hpp
+[12.920s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/explore_goal.hpp
+[12.920s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.921s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[12.921s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.921s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__rosidl_typesupport_introspection_c.h
+[12.921s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/include/project_interface/project_interface/srv/detail/explore_goal__rosidl_typesupport_introspection_cpp.hpp
+[12.921s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/environment/pythonpath.sh
+[12.922s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/environment/pythonpath.dsv
+[12.922s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[12.924s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.924s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.925s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface-0.0.0-py3.10.egg-info/top_level.txt
+[12.925s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/__init__.py
+[12.925s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/_project_interface_s.ep.rosidl_typesupport_c.c
+[12.925s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/_project_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.926s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/_project_interface_s.ep.rosidl_typesupport_introspection_c.c
+[12.926s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/libproject_interface__rosidl_generator_py.so
+[12.926s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/project_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.926s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/project_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.926s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/project_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.927s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/srv/__init__.py
+[12.927s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/srv/_explore_goal.py
+[12.927s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/srv/_explore_goal_s.c
+[12.927s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/project_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.927s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/project_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.927s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/project_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.928s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/srv/ExploreGoal.idl
+[12.928s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/srv/ExploreGoal.srv
+[12.928s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/srv/ExploreGoal_Request.msg
+[12.928s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/srv/ExploreGoal_Response.msg
+[12.928s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/ament_index/resource_index/package_run_dependencies/project_interface
+[12.929s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/ament_index/resource_index/parent_prefix_path/project_interface
+[12.929s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/environment/ament_prefix_path.sh
+[12.929s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/environment/ament_prefix_path.dsv
+[12.932s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/environment/path.sh
+[12.932s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/environment/path.dsv
+[12.932s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/local_setup.bash
+[12.933s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/local_setup.sh
+[12.933s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/local_setup.zsh
+[12.933s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/local_setup.dsv
+[12.933s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.dsv
+[12.933s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/ament_index/resource_index/packages/project_interface
+[12.934s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/rosidl_cmake-extras.cmake
+[12.934s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.934s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.934s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[12.934s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/ament_cmake_export_targets-extras.cmake
+[12.934s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.934s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.935s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interfaceConfig.cmake
+[12.935s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interfaceConfig-version.cmake
+[12.935s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/package.xml
+[12.935s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/lib/libproject_interface__rosidl_generator_c.so
+[12.935s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_fastrtps_c.so
+[12.935s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_fastrtps_cpp.so
+[12.935s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_introspection_c.so
+[12.935s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_c.so
+[12.935s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_introspection_cpp.so
+[12.935s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_cpp.so
+[12.935s] Listing '/home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface'...
+[12.936s] Listing '/home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages/project_interface/srv'...
+[12.936s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/lib/libproject_interface__rosidl_generator_py.so
+[12.936s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/export_project_interface__rosidl_generator_cExport.cmake
+[12.936s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/export_project_interface__rosidl_generator_cExport-noconfig.cmake
+[12.938s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/export_project_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[12.938s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/export_project_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.938s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/export_project_interface__rosidl_generator_cppExport.cmake
+[12.939s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/export_project_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.939s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/export_project_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.939s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_introspection_cExport.cmake
+[12.939s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.939s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_cExport.cmake
+[12.940s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_cExport-noconfig.cmake
+[12.940s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_introspection_cppExport.cmake
+[12.940s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.941s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_cppExport.cmake
+[12.941s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[12.941s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/export_project_interface__rosidl_generator_pyExport.cmake
+[12.941s] -- Up-to-date: /home/leime957/TDDE05/ros2_ws/install/project_interface/share/project_interface/cmake/export_project_interface__rosidl_generator_pyExport-noconfig.cmake
+[13.012s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/project_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/project_interface

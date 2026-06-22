@@ -1,0 +1,1 @@
+/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces/rosidl_generator_c/air_lab_interfaces/msg/detail/goal__struct.h

@@ -1,0 +1,17 @@
+[3.308s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab3': CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab3/build --no-deps symlink_data
+[4.254s] running develop
+[5.036s] running egg_info
+[5.036s] writing air_lab3.egg-info/PKG-INFO
+[5.040s] writing dependency_links to air_lab3.egg-info/dependency_links.txt
+[5.043s] writing entry points to air_lab3.egg-info/entry_points.txt
+[5.046s] writing requirements to air_lab3.egg-info/requires.txt
+[5.048s] writing top-level names to air_lab3.egg-info/top_level.txt
+[5.062s] reading manifest file 'air_lab3.egg-info/SOURCES.txt'
+[5.209s] writing manifest file 'air_lab3.egg-info/SOURCES.txt'
+[5.238s] running build_ext
+[5.238s] Creating /home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/python3.10/site-packages/air-lab3.egg-link (link to .)
+[5.245s] Installing tst_executor script to /home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/air_lab3
+[5.251s] 
+[5.251s] Installed /home/leime957/TDDE05/ros2_ws/build/air_lab3
+[5.252s] running symlink_data
+[5.281s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab3' returned '0': CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab3/build --no-deps symlink_data

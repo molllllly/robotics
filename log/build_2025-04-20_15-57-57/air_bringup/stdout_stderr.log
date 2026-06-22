@@ -1,0 +1,33 @@
+running develop
+running egg_info
+creating air_bringup.egg-info
+writing air_bringup.egg-info/PKG-INFO
+writing dependency_links to air_bringup.egg-info/dependency_links.txt
+writing entry points to air_bringup.egg-info/entry_points.txt
+writing requirements to air_bringup.egg-info/requires.txt
+writing top-level names to air_bringup.egg-info/top_level.txt
+writing manifest file 'air_bringup.egg-info/SOURCES.txt'
+reading manifest file 'air_bringup.egg-info/SOURCES.txt'
+writing manifest file 'air_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/lib/python3.10/site-packages/air-bringup.egg-link (link to .)
+
+Installed /home/leime957/TDDE05/ros2_ws/build/air_bringup
+running symlink_data
+creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index
+creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index/resource_index
+creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/resource/air_bringup -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/package.xml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/launch/create3_nodes.launch.py -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/launch/turtle2.launch.py -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/launch/turtle.launch.py -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup
+creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/config/nav2.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/config/nav2_test_py_controller.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/config/nav2_test_py_dwb.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/config
+creating /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.yaml -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.pgm -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.posegraph -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps
+symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_bringup/maps/office_1.data -> /home/leime957/TDDE05/ros2_ws/install/air_bringup/share/air_bringup/maps

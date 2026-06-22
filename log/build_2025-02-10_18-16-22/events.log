@@ -1,0 +1,575 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (air_lab2) JobQueued: {'identifier': 'air_lab2', 'dependencies': OrderedDict()}
+[0.000148] (air_lab_common) JobQueued: {'identifier': 'air_lab_common', 'dependencies': OrderedDict()}
+[0.000172] (air_lab_interfaces) JobQueued: {'identifier': 'air_lab_interfaces', 'dependencies': OrderedDict()}
+[0.000193] (air_lab2) JobStarted: {'identifier': 'air_lab2'}
+[0.096709] (air_lab_common) JobStarted: {'identifier': 'air_lab_common'}
+[0.099092] (-) TimerEvent: {}
+[0.125667] (air_lab_interfaces) JobStarted: {'identifier': 'air_lab_interfaces'}
+[0.199206] (-) TimerEvent: {}
+[0.299460] (-) TimerEvent: {}
+[0.399701] (-) TimerEvent: {}
+[0.499969] (-) TimerEvent: {}
+[0.600229] (-) TimerEvent: {}
+[0.700579] (-) TimerEvent: {}
+[0.800895] (-) TimerEvent: {}
+[0.901197] (-) TimerEvent: {}
+[1.001499] (-) TimerEvent: {}
+[1.101789] (-) TimerEvent: {}
+[1.202137] (-) TimerEvent: {}
+[1.302437] (-) TimerEvent: {}
+[1.402776] (-) TimerEvent: {}
+[1.503057] (-) TimerEvent: {}
+[1.603373] (-) TimerEvent: {}
+[1.703668] (-) TimerEvent: {}
+[1.803967] (-) TimerEvent: {}
+[1.904271] (-) TimerEvent: {}
+[2.004633] (-) TimerEvent: {}
+[2.104895] (-) TimerEvent: {}
+[2.205155] (-) TimerEvent: {}
+[2.305449] (-) TimerEvent: {}
+[2.405761] (-) TimerEvent: {}
+[2.506040] (-) TimerEvent: {}
+[2.528282] (air_lab_interfaces) JobProgress: {'identifier': 'air_lab_interfaces', 'progress': 'cmake'}
+[2.538890] (air_lab_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces'], 'cwd': '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces', 'env': OrderedDict([('USER', 'leime957'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1089241'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs'), ('__MODULES_LMALTNAME', 'prog/apptainer/1.3.2&as|prog/apptainer/default&as|prog/apptainer/latest:prog/vscode/1.96.4/1&as|prog/default&as|prog/latest&as|prog/vscode/default&as|prog/vscode/latest&as|prog/vscode/1.96.4/default&as|prog/vscode/1.96.4/latest:prog/pycharm-community/2024.2/0&as|prog/pycharm-community/default&as|prog/pycharm-community/latest&as|prog/pycharm-community/2024.2/default&as|prog/pycharm-community/2024.2/latest'), ('HOME', '/home/leime957'), ('OLDPWD', '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('USER_PATH', '/courses/TDDE05/software/bin:/opt/liu/course-venv-tdde24/1/2/bin:/opt/liu/pycharm-community/2024.2/0/bin:/opt/liu/vscode/1.96.4/1/bin:/opt/liu/apptainer/1.3.2/0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('LC_CTYPE', 'sv_SE.UTF-8'), ('QML2_IMPORT_PATH', '/opt/auksys_build/inst/lib/qt5/qml:/opt/auksys_build/inst/lib/qt6/qml'), ('_LMFILES_', '/usr/share/modules/modulefiles/null:/etc/environment-modules/modules/prog/apptainer/1.3.2:/etc/environment-modules/modules/courses/TDDE05:/etc/environment-modules/modules/prog/vscode/1.96.4/1:/etc/environment-modules/modules/prog/pycharm-community/2024.2/0:/etc/environment-modules/modules/courses/TDDE24:/etc/environment-modules/modules/courses/TDDE23'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1500136881/bus'), ('COLORTERM', 'truecolor'), ('APPTAINER_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('UBUNTU_MENUPROXY', '1'), ('LOCAL_DISK_CONTAINER', '/opt/liu/tdde05-rosbox/0/0/tdde05.sif'), ('MANDATORY_PATH', '/usr/share/gconf/xfce.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/leime957/TDDE05/ros2_ws/install:/opt/air_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('SINGULARITY_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('LOGNAME', 'leime957'), ('WINDOWID', '75562617'), ('RUBYLIB', '/opt/auksys_build/inst/lib/ruby:'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('AUKSYS_BUILD_INST', '/opt/auksys_build/inst'), ('PKG_CONFIG_PATH', '/opt/auksys_build/inst/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/xfce.default.path'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c9'), ('PYCHARM', '/opt/liu/pycharm-community/2024.2/0'), ('ROS_LOCALHOST_ONLY', '1'), ('LC_COLLATE', 'sv_SE.UTF-8'), ('PATH', '/courses/TDDE05/software/bin:/opt/ros/humble/bin:/opt/auksys_build/inst/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/su03-201.ad.liu.se:@/tmp/.ICE-unix/1088972,unix/su03-201.ad.liu.se:/tmp/.ICE-unix/1088972'), ('APPTAINER_COMMAND', 'exec'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session3'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1500136881'), ('DISPLAY', ':0.0'), ('APPTAINER_APPNAME', ''), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('__MODULES_LMTAG', 'prog/apptainer/1.3.2&auto-loaded:prog/vscode/1.96.4/1&auto-loaded:prog/pycharm-community/2024.2/0&auto-loaded:courses/TDDE24&auto-loaded'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/leime957/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXw0KL88/agent.1089240'), ('ROS_DOMAIN_ID', '92'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/leime957'), ('AMENT_PREFIX_PATH', '/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble'), ('LC_MESSAGES', 'en_GB.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_1500136881_77CYPU'), ('QT_ACCESSIBILITY', '1'), ('AUKSYS_ROOT', '/opt/auksys_build'), ('GDMSESSION', 'xfce'), ('APPTAINER_CONTAINER', '/opt/liu/tdde05-rosbox/0/0/tdde05.sif'), ('APPTAINER_BIND', '/run/user,/run/screen,/courses/TDDE05'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('VIRTUAL_ENV', '/opt/liu/course-venv-tdde24/1/2'), ('SINGULARITY_CONTAINER', '/opt/liu/tdde05-rosbox/0/0/tdde05.sif'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('SINGULARITY_BIND', '/run/user,/run/screen,/courses/TDDE05'), ('PWD', '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces'), ('__MODULES_LMPREREQ', 'courses/TDDE05&prog/apptainer/1.3.2:courses/TDDE24&prog/vscode&prog/pycharm-community/2024.2:courses/TDDE23&courses/TDDE24'), ('LOADEDMODULES', 'null:prog/apptainer/1.3.2:courses/TDDE05:prog/vscode/1.96.4/1:prog/pycharm-community/2024.2/0:courses/TDDE24:courses/TDDE23'), ('APPTAINER_NAME', 'tdde05.sif'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('VSCODE', '/opt/liu/vscode/1.96.4/1'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/home/leime957/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/leime957/TDDE05/ros2_ws/build/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/build/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:/opt/air_ws/install/ros_kdb/local/lib/python3.10/dist-packages:/opt/air_ws/install/ros_kdb_interfaces/local/lib/python3.10/dist-packages:/opt/air_ws/install/air_simple_sim_msgs/local/lib/python3.10/dist-packages:/opt/air_ws/build/air_simple_sim:/opt/air_ws/install/air_simple_sim/lib/python3.10/site-packages:/opt/air_ws/build/air_bringup:/opt/air_ws/install/air_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/auksys_build/inst/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('SINGULARITY_NAME', 'tdde05.sif'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('MANPATH', '::/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst::/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble')]), 'shell': False}
+[2.606160] (-) TimerEvent: {}
+[2.706482] (-) TimerEvent: {}
+[2.806782] (-) TimerEvent: {}
+[2.907131] (-) TimerEvent: {}
+[3.007464] (-) TimerEvent: {}
+[3.107763] (-) TimerEvent: {}
+[3.208048] (-) TimerEvent: {}
+[3.308367] (-) TimerEvent: {}
+[3.408695] (-) TimerEvent: {}
+[3.509003] (-) TimerEvent: {}
+[3.609321] (-) TimerEvent: {}
+[3.709656] (-) TimerEvent: {}
+[3.810027] (-) TimerEvent: {}
+[3.831351] (air_lab_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.910149] (-) TimerEvent: {}
+[4.010455] (-) TimerEvent: {}
+[4.110799] (-) TimerEvent: {}
+[4.211131] (-) TimerEvent: {}
+[4.311450] (-) TimerEvent: {}
+[4.411785] (-) TimerEvent: {}
+[4.435079] (air_lab_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.511905] (-) TimerEvent: {}
+[4.563901] (air_lab_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.612073] (-) TimerEvent: {}
+[4.712354] (-) TimerEvent: {}
+[4.812695] (-) TimerEvent: {}
+[4.912988] (-) TimerEvent: {}
+[5.013311] (-) TimerEvent: {}
+[5.113646] (-) TimerEvent: {}
+[5.213895] (-) TimerEvent: {}
+[5.314124] (-) TimerEvent: {}
+[5.414356] (-) TimerEvent: {}
+[5.482252] (air_lab_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.495780] (air_lab_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.498864] (air_lab_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.504431] (air_lab_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.514456] (-) TimerEvent: {}
+[5.573266] (air_lab_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.614580] (-) TimerEvent: {}
+[5.714956] (-) TimerEvent: {}
+[5.815282] (-) TimerEvent: {}
+[5.915671] (-) TimerEvent: {}
+[6.015985] (-) TimerEvent: {}
+[6.116285] (-) TimerEvent: {}
+[6.216635] (-) TimerEvent: {}
+[6.316932] (-) TimerEvent: {}
+[6.358879] (air_lab_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.374095] (air_lab_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.374712] (air_lab_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.375293] (air_lab_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.417031] (-) TimerEvent: {}
+[6.517365] (-) TimerEvent: {}
+[6.557655] (air_lab_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.617490] (-) TimerEvent: {}
+[6.717832] (-) TimerEvent: {}
+[6.732763] (air_lab2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/leime957/TDDE05/ros2_ws/build/air_lab2/build', '--no-deps', 'symlink_data'], 'cwd': '/home/leime957/TDDE05/ros2_ws/build/air_lab2', 'env': {'USER': 'leime957', 'LC_TIME': 'sv_SE.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1089241', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs', '__MODULES_LMALTNAME': 'prog/apptainer/1.3.2&as|prog/apptainer/default&as|prog/apptainer/latest:prog/vscode/1.96.4/1&as|prog/default&as|prog/latest&as|prog/vscode/default&as|prog/vscode/latest&as|prog/vscode/1.96.4/default&as|prog/vscode/1.96.4/latest:prog/pycharm-community/2024.2/0&as|prog/pycharm-community/default&as|prog/pycharm-community/latest&as|prog/pycharm-community/2024.2/default&as|prog/pycharm-community/2024.2/latest', 'HOME': '/home/leime957', 'OLDPWD': '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'USER_PATH': '/courses/TDDE05/software/bin:/opt/liu/course-venv-tdde24/1/2/bin:/opt/liu/pycharm-community/2024.2/0/bin:/opt/liu/vscode/1.96.4/1/bin:/opt/liu/apptainer/1.3.2/0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'MODULES_CMD': '/usr/lib/x86_64-linux-gnu/modulecmd.tcl', 'LC_MONETARY': 'sv_SE.UTF-8', 'LC_CTYPE': 'sv_SE.UTF-8', 'QML2_IMPORT_PATH': '/opt/auksys_build/inst/lib/qt5/qml:/opt/auksys_build/inst/lib/qt6/qml', '_LMFILES_': '/usr/share/modules/modulefiles/null:/etc/environment-modules/modules/prog/apptainer/1.3.2:/etc/environment-modules/modules/courses/TDDE05:/etc/environment-modules/modules/prog/vscode/1.96.4/1:/etc/environment-modules/modules/prog/pycharm-community/2024.2/0:/etc/environment-modules/modules/courses/TDDE24:/etc/environment-modules/modules/courses/TDDE23', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1500136881/bus', 'COLORTERM': 'truecolor', 'APPTAINER_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'UBUNTU_MENUPROXY': '1', 'LOCAL_DISK_CONTAINER': '/opt/liu/tdde05-rosbox/0/0/tdde05.sif', 'MANDATORY_PATH': '/usr/share/gconf/xfce.mandatory.path', 'COLCON_PREFIX_PATH': '/home/leime957/TDDE05/ros2_ws/install:/opt/air_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'SINGULARITY_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'LOGNAME': 'leime957', 'WINDOWID': '75562617', 'RUBYLIB': '/opt/auksys_build/inst/lib/ruby:', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'AUKSYS_BUILD_INST': '/opt/auksys_build/inst', 'PKG_CONFIG_PATH': '/opt/auksys_build/inst/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/xfce.default.path', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c9', 'PYCHARM': '/opt/liu/pycharm-community/2024.2/0', 'ROS_LOCALHOST_ONLY': '1', 'LC_COLLATE': 'sv_SE.UTF-8', 'PATH': '/courses/TDDE05/software/bin:/opt/ros/humble/bin:/opt/auksys_build/inst/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/su03-201.ad.liu.se:@/tmp/.ICE-unix/1088972,unix/su03-201.ad.liu.se:/tmp/.ICE-unix/1088972', 'APPTAINER_COMMAND': 'exec', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session3', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'sv_SE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1500136881', 'DISPLAY': ':0.0', 'APPTAINER_APPNAME': '', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', '__MODULES_LMTAG': 'prog/apptainer/1.3.2&auto-loaded:prog/vscode/1.96.4/1&auto-loaded:prog/pycharm-community/2024.2/0&auto-loaded:courses/TDDE24&auto-loaded', 'LC_TELEPHONE': 'sv_SE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/leime957/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXw0KL88/agent.1089240', 'ROS_DOMAIN_ID': '92', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/leime957', 'AMENT_PREFIX_PATH': '/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble', 'LC_MESSAGES': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'LC_NAME': 'sv_SE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_1500136881_77CYPU', 'QT_ACCESSIBILITY': '1', 'AUKSYS_ROOT': '/opt/auksys_build', 'GDMSESSION': 'xfce', 'APPTAINER_CONTAINER': '/opt/liu/tdde05-rosbox/0/0/tdde05.sif', 'APPTAINER_BIND': '/run/user,/run/screen,/courses/TDDE05', 'LC_MEASUREMENT': 'sv_SE.UTF-8', 'LC_IDENTIFICATION': 'sv_SE.UTF-8', 'VIRTUAL_ENV': '/opt/liu/course-venv-tdde24/1/2', 'SINGULARITY_CONTAINER': '/opt/liu/tdde05-rosbox/0/0/tdde05.sif', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'SINGULARITY_BIND': '/run/user,/run/screen,/courses/TDDE05', 'PWD': '/home/leime957/TDDE05/ros2_ws/build/air_lab2', '__MODULES_LMPREREQ': 'courses/TDDE05&prog/apptainer/1.3.2:courses/TDDE24&prog/vscode&prog/pycharm-community/2024.2:courses/TDDE23&courses/TDDE24', 'LOADEDMODULES': 'null:prog/apptainer/1.3.2:courses/TDDE05:prog/vscode/1.96.4/1:prog/pycharm-community/2024.2/0:courses/TDDE24:courses/TDDE23', 'APPTAINER_NAME': 'tdde05.sif', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'VSCODE': '/opt/liu/vscode/1.96.4/1', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/home/leime957/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/leime957/TDDE05/ros2_ws/build/air_lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/build/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/build/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:/opt/air_ws/install/ros_kdb/local/lib/python3.10/dist-packages:/opt/air_ws/install/ros_kdb_interfaces/local/lib/python3.10/dist-packages:/opt/air_ws/install/air_simple_sim_msgs/local/lib/python3.10/dist-packages:/opt/air_ws/build/air_simple_sim:/opt/air_ws/install/air_simple_sim/lib/python3.10/site-packages:/opt/air_ws/build/air_bringup:/opt/air_ws/install/air_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/auksys_build/inst/lib/python3.10/dist-packages:', 'LC_NUMERIC': 'sv_SE.UTF-8', 'SINGULARITY_NAME': 'tdde05.sif', 'LC_PAPER': 'sv_SE.UTF-8', 'COLCON': '1', 'MANPATH': '::/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '6800', 'MODULEPATH': '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles', 'MODULESHOME': '/usr/share/modules', 'CMAKE_PREFIX_PATH': '/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst:'}, 'shell': False}
+[6.743326] (air_lab_common) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/leime957/TDDE05/ros2_ws/build/air_lab_common/build', '--no-deps', 'symlink_data'], 'cwd': '/home/leime957/TDDE05/ros2_ws/build/air_lab_common', 'env': {'USER': 'leime957', 'LC_TIME': 'sv_SE.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1089241', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs', '__MODULES_LMALTNAME': 'prog/apptainer/1.3.2&as|prog/apptainer/default&as|prog/apptainer/latest:prog/vscode/1.96.4/1&as|prog/default&as|prog/latest&as|prog/vscode/default&as|prog/vscode/latest&as|prog/vscode/1.96.4/default&as|prog/vscode/1.96.4/latest:prog/pycharm-community/2024.2/0&as|prog/pycharm-community/default&as|prog/pycharm-community/latest&as|prog/pycharm-community/2024.2/default&as|prog/pycharm-community/2024.2/latest', 'HOME': '/home/leime957', 'OLDPWD': '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'USER_PATH': '/courses/TDDE05/software/bin:/opt/liu/course-venv-tdde24/1/2/bin:/opt/liu/pycharm-community/2024.2/0/bin:/opt/liu/vscode/1.96.4/1/bin:/opt/liu/apptainer/1.3.2/0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'MODULES_CMD': '/usr/lib/x86_64-linux-gnu/modulecmd.tcl', 'LC_MONETARY': 'sv_SE.UTF-8', 'LC_CTYPE': 'sv_SE.UTF-8', 'QML2_IMPORT_PATH': '/opt/auksys_build/inst/lib/qt5/qml:/opt/auksys_build/inst/lib/qt6/qml', '_LMFILES_': '/usr/share/modules/modulefiles/null:/etc/environment-modules/modules/prog/apptainer/1.3.2:/etc/environment-modules/modules/courses/TDDE05:/etc/environment-modules/modules/prog/vscode/1.96.4/1:/etc/environment-modules/modules/prog/pycharm-community/2024.2/0:/etc/environment-modules/modules/courses/TDDE24:/etc/environment-modules/modules/courses/TDDE23', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1500136881/bus', 'COLORTERM': 'truecolor', 'APPTAINER_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'UBUNTU_MENUPROXY': '1', 'LOCAL_DISK_CONTAINER': '/opt/liu/tdde05-rosbox/0/0/tdde05.sif', 'MANDATORY_PATH': '/usr/share/gconf/xfce.mandatory.path', 'COLCON_PREFIX_PATH': '/home/leime957/TDDE05/ros2_ws/install:/opt/air_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'SINGULARITY_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'LOGNAME': 'leime957', 'WINDOWID': '75562617', 'RUBYLIB': '/opt/auksys_build/inst/lib/ruby:', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'AUKSYS_BUILD_INST': '/opt/auksys_build/inst', 'PKG_CONFIG_PATH': '/opt/auksys_build/inst/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/xfce.default.path', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c9', 'PYCHARM': '/opt/liu/pycharm-community/2024.2/0', 'ROS_LOCALHOST_ONLY': '1', 'LC_COLLATE': 'sv_SE.UTF-8', 'PATH': '/courses/TDDE05/software/bin:/opt/ros/humble/bin:/opt/auksys_build/inst/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/su03-201.ad.liu.se:@/tmp/.ICE-unix/1088972,unix/su03-201.ad.liu.se:/tmp/.ICE-unix/1088972', 'APPTAINER_COMMAND': 'exec', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session3', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'sv_SE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1500136881', 'DISPLAY': ':0.0', 'APPTAINER_APPNAME': '', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', '__MODULES_LMTAG': 'prog/apptainer/1.3.2&auto-loaded:prog/vscode/1.96.4/1&auto-loaded:prog/pycharm-community/2024.2/0&auto-loaded:courses/TDDE24&auto-loaded', 'LC_TELEPHONE': 'sv_SE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/leime957/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXw0KL88/agent.1089240', 'ROS_DOMAIN_ID': '92', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/leime957', 'AMENT_PREFIX_PATH': '/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble', 'LC_MESSAGES': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'LC_NAME': 'sv_SE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_1500136881_77CYPU', 'QT_ACCESSIBILITY': '1', 'AUKSYS_ROOT': '/opt/auksys_build', 'GDMSESSION': 'xfce', 'APPTAINER_CONTAINER': '/opt/liu/tdde05-rosbox/0/0/tdde05.sif', 'APPTAINER_BIND': '/run/user,/run/screen,/courses/TDDE05', 'LC_MEASUREMENT': 'sv_SE.UTF-8', 'LC_IDENTIFICATION': 'sv_SE.UTF-8', 'VIRTUAL_ENV': '/opt/liu/course-venv-tdde24/1/2', 'SINGULARITY_CONTAINER': '/opt/liu/tdde05-rosbox/0/0/tdde05.sif', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'SINGULARITY_BIND': '/run/user,/run/screen,/courses/TDDE05', 'PWD': '/home/leime957/TDDE05/ros2_ws/build/air_lab_common', '__MODULES_LMPREREQ': 'courses/TDDE05&prog/apptainer/1.3.2:courses/TDDE24&prog/vscode&prog/pycharm-community/2024.2:courses/TDDE23&courses/TDDE24', 'LOADEDMODULES': 'null:prog/apptainer/1.3.2:courses/TDDE05:prog/vscode/1.96.4/1:prog/pycharm-community/2024.2/0:courses/TDDE24:courses/TDDE23', 'APPTAINER_NAME': 'tdde05.sif', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'VSCODE': '/opt/liu/vscode/1.96.4/1', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/home/leime957/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/leime957/TDDE05/ros2_ws/build/air_lab_common/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/build/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/build/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:/opt/air_ws/install/ros_kdb/local/lib/python3.10/dist-packages:/opt/air_ws/install/ros_kdb_interfaces/local/lib/python3.10/dist-packages:/opt/air_ws/install/air_simple_sim_msgs/local/lib/python3.10/dist-packages:/opt/air_ws/build/air_simple_sim:/opt/air_ws/install/air_simple_sim/lib/python3.10/site-packages:/opt/air_ws/build/air_bringup:/opt/air_ws/install/air_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/auksys_build/inst/lib/python3.10/dist-packages:', 'LC_NUMERIC': 'sv_SE.UTF-8', 'SINGULARITY_NAME': 'tdde05.sif', 'LC_PAPER': 'sv_SE.UTF-8', 'COLCON': '1', 'MANPATH': '::/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '6800', 'MODULEPATH': '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles', 'MODULESHOME': '/usr/share/modules', 'CMAKE_PREFIX_PATH': '/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst:'}, 'shell': False}
+[6.817949] (-) TimerEvent: {}
+[6.918278] (-) TimerEvent: {}
+[7.018601] (-) TimerEvent: {}
+[7.118921] (-) TimerEvent: {}
+[7.219240] (-) TimerEvent: {}
+[7.319548] (-) TimerEvent: {}
+[7.418057] (air_lab_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.419608] (-) TimerEvent: {}
+[7.519883] (-) TimerEvent: {}
+[7.620149] (-) TimerEvent: {}
+[7.720460] (-) TimerEvent: {}
+[7.778879] (air_lab_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.820561] (-) TimerEvent: {}
+[7.920881] (-) TimerEvent: {}
+[8.021212] (-) TimerEvent: {}
+[8.121510] (-) TimerEvent: {}
+[8.221829] (-) TimerEvent: {}
+[8.322121] (-) TimerEvent: {}
+[8.422442] (-) TimerEvent: {}
+[8.522720] (-) TimerEvent: {}
+[8.622982] (-) TimerEvent: {}
+[8.723296] (-) TimerEvent: {}
+[8.823522] (-) TimerEvent: {}
+[8.923791] (-) TimerEvent: {}
+[9.024075] (-) TimerEvent: {}
+[9.124326] (-) TimerEvent: {}
+[9.224578] (-) TimerEvent: {}
+[9.324844] (-) TimerEvent: {}
+[9.425064] (-) TimerEvent: {}
+[9.427421] (air_lab2) StdoutLine: {'line': b'running develop\n'}
+[9.428213] (air_lab_common) StdoutLine: {'line': b'running develop\n'}
+[9.525174] (-) TimerEvent: {}
+[9.625471] (-) TimerEvent: {}
+[9.725798] (-) TimerEvent: {}
+[9.826089] (-) TimerEvent: {}
+[9.926425] (-) TimerEvent: {}
+[9.967815] (air_lab_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[10.026511] (-) TimerEvent: {}
+[10.126756] (-) TimerEvent: {}
+[10.227033] (-) TimerEvent: {}
+[10.327273] (-) TimerEvent: {}
+[10.427538] (-) TimerEvent: {}
+[10.527777] (-) TimerEvent: {}
+[10.628027] (-) TimerEvent: {}
+[10.728277] (-) TimerEvent: {}
+[10.828515] (-) TimerEvent: {}
+[10.928734] (-) TimerEvent: {}
+[11.028989] (-) TimerEvent: {}
+[11.129221] (-) TimerEvent: {}
+[11.229468] (-) TimerEvent: {}
+[11.329697] (-) TimerEvent: {}
+[11.396883] (air_lab_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.429804] (-) TimerEvent: {}
+[11.530049] (-) TimerEvent: {}
+[11.573417] (air_lab_common) StdoutLine: {'line': b'running egg_info\n'}
+[11.573863] (air_lab_common) StdoutLine: {'line': b'writing air_lab_common.egg-info/PKG-INFO\n'}
+[11.574333] (air_lab2) StdoutLine: {'line': b'running egg_info\n'}
+[11.574535] (air_lab2) StdoutLine: {'line': b'writing air_lab2.egg-info/PKG-INFO\n'}
+[11.577297] (air_lab_common) StdoutLine: {'line': b'writing dependency_links to air_lab_common.egg-info/dependency_links.txt\n'}
+[11.578133] (air_lab2) StdoutLine: {'line': b'writing dependency_links to air_lab2.egg-info/dependency_links.txt\n'}
+[11.580526] (air_lab_common) StdoutLine: {'line': b'writing entry points to air_lab_common.egg-info/entry_points.txt\n'}
+[11.581404] (air_lab2) StdoutLine: {'line': b'writing entry points to air_lab2.egg-info/entry_points.txt\n'}
+[11.583313] (air_lab_common) StdoutLine: {'line': b'writing requirements to air_lab_common.egg-info/requires.txt\n'}
+[11.584421] (air_lab2) StdoutLine: {'line': b'writing requirements to air_lab2.egg-info/requires.txt\n'}
+[11.585747] (air_lab_common) StdoutLine: {'line': b'writing top-level names to air_lab_common.egg-info/top_level.txt\n'}
+[11.586343] (air_lab2) StdoutLine: {'line': b'writing top-level names to air_lab2.egg-info/top_level.txt\n'}
+[11.599788] (air_lab_common) StdoutLine: {'line': b"reading manifest file 'air_lab_common.egg-info/SOURCES.txt'\n"}
+[11.601263] (air_lab2) StdoutLine: {'line': b"reading manifest file 'air_lab2.egg-info/SOURCES.txt'\n"}
+[11.602343] (air_lab_common) StdoutLine: {'line': b"writing manifest file 'air_lab_common.egg-info/SOURCES.txt'\n"}
+[11.603627] (air_lab2) StdoutLine: {'line': b"writing manifest file 'air_lab2.egg-info/SOURCES.txt'\n"}
+[11.614355] (air_lab_common) StdoutLine: {'line': b'running build_ext\n'}
+[11.614590] (air_lab2) StdoutLine: {'line': b'running build_ext\n'}
+[11.615308] (air_lab_common) StdoutLine: {'line': b'Creating /home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages/air-lab-common.egg-link (link to .)\n'}
+[11.615396] (air_lab2) StdoutLine: {'line': b'Creating /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages/air-lab2.egg-link (link to .)\n'}
+[11.620965] (air_lab_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.621500] (air_lab2) StdoutLine: {'line': b'Installing lab2_node script to /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/air_lab2\n'}
+[11.622093] (air_lab_common) StdoutLine: {'line': b'\n'}
+[11.622147] (air_lab_common) StdoutLine: {'line': b'Installed /home/leime957/TDDE05/ros2_ws/build/air_lab_common\n'}
+[11.622964] (air_lab_common) StdoutLine: {'line': b'running symlink_data\n'}
+[11.625749] (air_lab2) StdoutLine: {'line': b'Installing ran script to /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/air_lab2\n'}
+[11.630144] (-) TimerEvent: {}
+[11.630326] (air_lab2) StdoutLine: {'line': b'Installing talker script to /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/air_lab2\n'}
+[11.635852] (air_lab2) StdoutLine: {'line': b'\n'}
+[11.635970] (air_lab2) StdoutLine: {'line': b'Installed /home/leime957/TDDE05/ros2_ws/build/air_lab2\n'}
+[11.636740] (air_lab2) StdoutLine: {'line': b'running symlink_data\n'}
+[11.645360] (air_lab_common) CommandEnded: {'returncode': 0}
+[11.730262] (-) TimerEvent: {}
+[11.830625] (-) TimerEvent: {}
+[11.930994] (-) TimerEvent: {}
+[11.995246] (air_lab_common) JobEnded: {'identifier': 'air_lab_common', 'rc': 0}
+[12.000019] (air_lab2) CommandEnded: {'returncode': 0}
+[12.000862] (air_lab_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.031069] (-) TimerEvent: {}
+[12.051699] (air_lab2) JobEnded: {'identifier': 'air_lab2', 'rc': 0}
+[12.116092] (air_lab_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.131202] (-) TimerEvent: {}
+[12.231504] (-) TimerEvent: {}
+[12.275566] (air_lab_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.331607] (-) TimerEvent: {}
+[12.431926] (-) TimerEvent: {}
+[12.453717] (air_lab_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[12.532085] (-) TimerEvent: {}
+[12.561186] (air_lab_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.632213] (-) TimerEvent: {}
+[12.732504] (-) TimerEvent: {}
+[12.832821] (-) TimerEvent: {}
+[12.933140] (-) TimerEvent: {}
+[13.033437] (-) TimerEvent: {}
+[13.133754] (-) TimerEvent: {}
+[13.234100] (-) TimerEvent: {}
+[13.334390] (-) TimerEvent: {}
+[13.434675] (-) TimerEvent: {}
+[13.534963] (-) TimerEvent: {}
+[13.635275] (-) TimerEvent: {}
+[13.735591] (-) TimerEvent: {}
+[13.848533] (air_lab_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[13.848759] (-) TimerEvent: {}
+[13.949676] (-) TimerEvent: {}
+[14.049983] (-) TimerEvent: {}
+[14.150282] (-) TimerEvent: {}
+[14.250582] (-) TimerEvent: {}
+[14.350868] (-) TimerEvent: {}
+[14.451170] (-) TimerEvent: {}
+[14.551478] (-) TimerEvent: {}
+[14.813675] (-) TimerEvent: {}
+[14.913971] (-) TimerEvent: {}
+[15.014353] (-) TimerEvent: {}
+[15.114763] (-) TimerEvent: {}
+[15.215128] (-) TimerEvent: {}
+[15.401536] (-) TimerEvent: {}
+[15.501857] (-) TimerEvent: {}
+[15.659622] (-) TimerEvent: {}
+[15.748091] (air_lab_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.759735] (-) TimerEvent: {}
+[15.859977] (-) TimerEvent: {}
+[15.960321] (-) TimerEvent: {}
+[16.060668] (-) TimerEvent: {}
+[16.071312] (air_lab_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[16.132303] (air_lab_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[16.160803] (-) TimerEvent: {}
+[16.181138] (air_lab_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[16.260900] (-) TimerEvent: {}
+[16.283422] (air_lab_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[16.283573] (air_lab_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.284588] (air_lab_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[16.284634] (air_lab_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[16.331306] (air_lab_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[16.361003] (-) TimerEvent: {}
+[16.461241] (-) TimerEvent: {}
+[16.561490] (-) TimerEvent: {}
+[16.661801] (-) TimerEvent: {}
+[16.669154] (air_lab_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.698158] (air_lab_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.761888] (-) TimerEvent: {}
+[16.862147] (-) TimerEvent: {}
+[16.931121] (air_lab_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.962294] (-) TimerEvent: {}
+[17.062570] (-) TimerEvent: {}
+[17.162794] (-) TimerEvent: {}
+[17.263101] (-) TimerEvent: {}
+[17.363362] (-) TimerEvent: {}
+[17.463598] (-) TimerEvent: {}
+[17.563856] (-) TimerEvent: {}
+[17.664080] (-) TimerEvent: {}
+[17.764334] (-) TimerEvent: {}
+[17.864561] (-) TimerEvent: {}
+[17.964815] (-) TimerEvent: {}
+[18.065059] (-) TimerEvent: {}
+[18.117050] (air_lab_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[18.165155] (-) TimerEvent: {}
+[18.265392] (-) TimerEvent: {}
+[18.315007] (air_lab_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces\n'}
+[18.321297] (air_lab_interfaces) CommandEnded: {'returncode': 0}
+[18.322855] (air_lab_interfaces) JobProgress: {'identifier': 'air_lab_interfaces', 'progress': 'build'}
+[18.324852] (air_lab_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces', 'env': OrderedDict([('USER', 'leime957'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1089241'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs'), ('__MODULES_LMALTNAME', 'prog/apptainer/1.3.2&as|prog/apptainer/default&as|prog/apptainer/latest:prog/vscode/1.96.4/1&as|prog/default&as|prog/latest&as|prog/vscode/default&as|prog/vscode/latest&as|prog/vscode/1.96.4/default&as|prog/vscode/1.96.4/latest:prog/pycharm-community/2024.2/0&as|prog/pycharm-community/default&as|prog/pycharm-community/latest&as|prog/pycharm-community/2024.2/default&as|prog/pycharm-community/2024.2/latest'), ('HOME', '/home/leime957'), ('OLDPWD', '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('USER_PATH', '/courses/TDDE05/software/bin:/opt/liu/course-venv-tdde24/1/2/bin:/opt/liu/pycharm-community/2024.2/0/bin:/opt/liu/vscode/1.96.4/1/bin:/opt/liu/apptainer/1.3.2/0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('LC_CTYPE', 'sv_SE.UTF-8'), ('QML2_IMPORT_PATH', '/opt/auksys_build/inst/lib/qt5/qml:/opt/auksys_build/inst/lib/qt6/qml'), ('_LMFILES_', '/usr/share/modules/modulefiles/null:/etc/environment-modules/modules/prog/apptainer/1.3.2:/etc/environment-modules/modules/courses/TDDE05:/etc/environment-modules/modules/prog/vscode/1.96.4/1:/etc/environment-modules/modules/prog/pycharm-community/2024.2/0:/etc/environment-modules/modules/courses/TDDE24:/etc/environment-modules/modules/courses/TDDE23'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1500136881/bus'), ('COLORTERM', 'truecolor'), ('APPTAINER_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('UBUNTU_MENUPROXY', '1'), ('LOCAL_DISK_CONTAINER', '/opt/liu/tdde05-rosbox/0/0/tdde05.sif'), ('MANDATORY_PATH', '/usr/share/gconf/xfce.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/leime957/TDDE05/ros2_ws/install:/opt/air_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('SINGULARITY_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('LOGNAME', 'leime957'), ('WINDOWID', '75562617'), ('RUBYLIB', '/opt/auksys_build/inst/lib/ruby:'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('AUKSYS_BUILD_INST', '/opt/auksys_build/inst'), ('PKG_CONFIG_PATH', '/opt/auksys_build/inst/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/xfce.default.path'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c9'), ('PYCHARM', '/opt/liu/pycharm-community/2024.2/0'), ('ROS_LOCALHOST_ONLY', '1'), ('LC_COLLATE', 'sv_SE.UTF-8'), ('PATH', '/courses/TDDE05/software/bin:/opt/ros/humble/bin:/opt/auksys_build/inst/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/su03-201.ad.liu.se:@/tmp/.ICE-unix/1088972,unix/su03-201.ad.liu.se:/tmp/.ICE-unix/1088972'), ('APPTAINER_COMMAND', 'exec'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session3'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1500136881'), ('DISPLAY', ':0.0'), ('APPTAINER_APPNAME', ''), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('__MODULES_LMTAG', 'prog/apptainer/1.3.2&auto-loaded:prog/vscode/1.96.4/1&auto-loaded:prog/pycharm-community/2024.2/0&auto-loaded:courses/TDDE24&auto-loaded'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/leime957/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXw0KL88/agent.1089240'), ('ROS_DOMAIN_ID', '92'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/leime957'), ('AMENT_PREFIX_PATH', '/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble'), ('LC_MESSAGES', 'en_GB.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_1500136881_77CYPU'), ('QT_ACCESSIBILITY', '1'), ('AUKSYS_ROOT', '/opt/auksys_build'), ('GDMSESSION', 'xfce'), ('APPTAINER_CONTAINER', '/opt/liu/tdde05-rosbox/0/0/tdde05.sif'), ('APPTAINER_BIND', '/run/user,/run/screen,/courses/TDDE05'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('VIRTUAL_ENV', '/opt/liu/course-venv-tdde24/1/2'), ('SINGULARITY_CONTAINER', '/opt/liu/tdde05-rosbox/0/0/tdde05.sif'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('SINGULARITY_BIND', '/run/user,/run/screen,/courses/TDDE05'), ('PWD', '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces'), ('__MODULES_LMPREREQ', 'courses/TDDE05&prog/apptainer/1.3.2:courses/TDDE24&prog/vscode&prog/pycharm-community/2024.2:courses/TDDE23&courses/TDDE24'), ('LOADEDMODULES', 'null:prog/apptainer/1.3.2:courses/TDDE05:prog/vscode/1.96.4/1:prog/pycharm-community/2024.2/0:courses/TDDE24:courses/TDDE23'), ('APPTAINER_NAME', 'tdde05.sif'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('VSCODE', '/opt/liu/vscode/1.96.4/1'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/home/leime957/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/leime957/TDDE05/ros2_ws/build/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/build/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:/opt/air_ws/install/ros_kdb/local/lib/python3.10/dist-packages:/opt/air_ws/install/ros_kdb_interfaces/local/lib/python3.10/dist-packages:/opt/air_ws/install/air_simple_sim_msgs/local/lib/python3.10/dist-packages:/opt/air_ws/build/air_simple_sim:/opt/air_ws/install/air_simple_sim/lib/python3.10/site-packages:/opt/air_ws/build/air_bringup:/opt/air_ws/install/air_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/auksys_build/inst/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('SINGULARITY_NAME', 'tdde05.sif'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('MANPATH', '::/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst::/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble')]), 'shell': False}
+[18.365513] (-) TimerEvent: {}
+[18.465773] (-) TimerEvent: {}
+[18.566007] (-) TimerEvent: {}
+[18.651269] (air_lab_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[18.666098] (-) TimerEvent: {}
+[18.737018] (air_lab_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[18.766271] (-) TimerEvent: {}
+[18.811344] (air_lab_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_air_lab_interfaces\n'}
+[18.866339] (-) TimerEvent: {}
+[18.966607] (-) TimerEvent: {}
+[19.066860] (-) TimerEvent: {}
+[19.167098] (-) TimerEvent: {}
+[19.267391] (-) TimerEvent: {}
+[19.367718] (-) TimerEvent: {}
+[19.468032] (-) TimerEvent: {}
+[19.556828] (air_lab_interfaces) StdoutLine: {'line': b'[  6%] Built target air_lab_interfaces__cpp\n'}
+[19.568148] (-) TimerEvent: {}
+[19.668435] (-) TimerEvent: {}
+[19.729114] (air_lab_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.732582] (air_lab_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[19.732754] (air_lab_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[19.733421] (air_lab_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_generator_c.dir/rosidl_generator_c/air_lab_interfaces/srv/detail/execute_tst__functions.c.o\x1b[0m\n'}
+[19.768541] (-) TimerEvent: {}
+[19.868847] (-) TimerEvent: {}
+[19.969142] (-) TimerEvent: {}
+[20.069432] (-) TimerEvent: {}
+[20.169744] (-) TimerEvent: {}
+[20.270039] (-) TimerEvent: {}
+[20.370336] (-) TimerEvent: {}
+[20.470624] (-) TimerEvent: {}
+[20.562421] (air_lab_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libair_lab_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[20.570737] (-) TimerEvent: {}
+[20.671046] (-) TimerEvent: {}
+[20.771376] (-) TimerEvent: {}
+[20.871681] (-) TimerEvent: {}
+[20.968417] (air_lab_interfaces) StdoutLine: {'line': b'[ 22%] Built target air_lab_interfaces__rosidl_generator_c\n'}
+[20.971781] (-) TimerEvent: {}
+[20.973628] (air_lab_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/air_lab_interfaces/srv/execute_tst__type_support.cpp.o\x1b[0m\n'}
+[21.071891] (-) TimerEvent: {}
+[21.167770] (air_lab_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/air_lab_interfaces/srv/detail/execute_tst__type_support.cpp.o\x1b[0m\n'}
+[21.171990] (-) TimerEvent: {}
+[21.216971] (air_lab_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/air_lab_interfaces/srv/detail/dds_fastrtps/execute_tst__type_support.cpp.o\x1b[0m\n'}
+[21.246776] (air_lab_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[21.256960] (air_lab_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[21.267952] (air_lab_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[21.272097] (-) TimerEvent: {}
+[21.372448] (-) TimerEvent: {}
+[21.472723] (-) TimerEvent: {}
+[21.573031] (-) TimerEvent: {}
+[21.673335] (-) TimerEvent: {}
+[21.773617] (-) TimerEvent: {}
+[21.873928] (-) TimerEvent: {}
+[21.974314] (-) TimerEvent: {}
+[22.074698] (-) TimerEvent: {}
+[22.174995] (-) TimerEvent: {}
+[22.275303] (-) TimerEvent: {}
+[22.375589] (-) TimerEvent: {}
+[22.475889] (-) TimerEvent: {}
+[22.576181] (-) TimerEvent: {}
+[22.676520] (-) TimerEvent: {}
+[22.776835] (-) TimerEvent: {}
+[22.877155] (-) TimerEvent: {}
+[22.977440] (-) TimerEvent: {}
+[23.077757] (-) TimerEvent: {}
+[23.127641] (air_lab_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[23.177886] (-) TimerEvent: {}
+[23.214842] (air_lab_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/air_lab_interfaces/srv/execute_tst__type_support.cpp.o\x1b[0m\n'}
+[23.278003] (-) TimerEvent: {}
+[23.367622] (air_lab_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[23.367853] (air_lab_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/air_lab_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/air_lab_interfaces/srv/detail/execute_tst__type_support_c.cpp.o\x1b[0m\n'}
+[23.374049] (air_lab_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/air_lab_interfaces/srv/detail/execute_tst__type_support.c.o\x1b[0m\n'}
+[23.378089] (-) TimerEvent: {}
+[23.478387] (-) TimerEvent: {}
+[23.578708] (-) TimerEvent: {}
+[23.679023] (-) TimerEvent: {}
+[23.759413] (air_lab_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[23.779140] (-) TimerEvent: {}
+[23.848002] (air_lab_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[23.879267] (-) TimerEvent: {}
+[23.979631] (-) TimerEvent: {}
+[24.009178] (air_lab_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libair_lab_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[24.011653] (air_lab_interfaces) StdoutLine: {'line': b'[ 67%] Built target air_lab_interfaces__rosidl_typesupport_cpp\n'}
+[24.079707] (-) TimerEvent: {}
+[24.127614] (air_lab_interfaces) StdoutLine: {'line': b'[ 67%] Built target air_lab_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[24.179825] (-) TimerEvent: {}
+[24.244080] (air_lab_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[24.245549] (air_lab_interfaces) StdoutLine: {'line': b'creating air_lab_interfaces.egg-info\n'}
+[24.247482] (air_lab_interfaces) StdoutLine: {'line': b'writing air_lab_interfaces.egg-info/PKG-INFO\n'}
+[24.251424] (air_lab_interfaces) StdoutLine: {'line': b'writing dependency_links to air_lab_interfaces.egg-info/dependency_links.txt\n'}
+[24.255433] (air_lab_interfaces) StdoutLine: {'line': b'writing top-level names to air_lab_interfaces.egg-info/top_level.txt\n'}
+[24.258410] (air_lab_interfaces) StdoutLine: {'line': b"writing manifest file 'air_lab_interfaces.egg-info/SOURCES.txt'\n"}
+[24.278925] (air_lab_interfaces) StdoutLine: {'line': b"reading manifest file 'air_lab_interfaces.egg-info/SOURCES.txt'\n"}
+[24.279908] (-) TimerEvent: {}
+[24.281807] (air_lab_interfaces) StdoutLine: {'line': b"writing manifest file 'air_lab_interfaces.egg-info/SOURCES.txt'\n"}
+[24.350685] (air_lab_interfaces) StdoutLine: {'line': b'[ 67%] Built target air_lab_interfaces__rosidl_typesupport_c\n'}
+[24.380018] (-) TimerEvent: {}
+[24.411067] (air_lab_interfaces) StdoutLine: {'line': b'[ 67%] Built target ament_cmake_python_build_air_lab_interfaces_egg\n'}
+[24.415263] (air_lab_interfaces) StdoutLine: {'line': b'[ 67%] Built target air_lab_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[24.418379] (air_lab_interfaces) StdoutLine: {'line': b'[ 67%] Built target air_lab_interfaces__rosidl_typesupport_introspection_c\n'}
+[24.480124] (-) TimerEvent: {}
+[24.580497] (-) TimerEvent: {}
+[24.640856] (air_lab_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libair_lab_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[24.680663] (-) TimerEvent: {}
+[24.770341] (air_lab_interfaces) StdoutLine: {'line': b'[ 70%] Built target air_lab_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[24.780792] (-) TimerEvent: {}
+[24.845942] (air_lab_interfaces) StdoutLine: {'line': b'[ 70%] Built target air_lab_interfaces\n'}
+[24.880939] (-) TimerEvent: {}
+[24.923688] (air_lab_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.981100] (-) TimerEvent: {}
+[25.081403] (-) TimerEvent: {}
+[25.181797] (-) TimerEvent: {}
+[25.282126] (-) TimerEvent: {}
+[25.382412] (-) TimerEvent: {}
+[25.478477] (air_lab_interfaces) StdoutLine: {'line': b'[ 74%] Built target air_lab_interfaces__py\n'}
+[25.482490] (-) TimerEvent: {}
+[25.563505] (air_lab_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_generator_py.dir/rosidl_generator_py/air_lab_interfaces/srv/_execute_tst_s.c.o\x1b[0m\n'}
+[25.582593] (-) TimerEvent: {}
+[25.682851] (-) TimerEvent: {}
+[25.783087] (-) TimerEvent: {}
+[25.883343] (-) TimerEvent: {}
+[25.983608] (-) TimerEvent: {}
+[26.045399] (air_lab_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/air_lab_interfaces/libair_lab_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[26.083716] (-) TimerEvent: {}
+[26.146034] (air_lab_interfaces) StdoutLine: {'line': b'[ 80%] Built target air_lab_interfaces__rosidl_generator_py\n'}
+[26.183806] (-) TimerEvent: {}
+[26.284056] (-) TimerEvent: {}
+[26.295967] (air_lab_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.300549] (air_lab_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.300674] (air_lab_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/air_lab_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.384143] (-) TimerEvent: {}
+[26.484376] (-) TimerEvent: {}
+[26.584647] (-) TimerEvent: {}
+[26.684949] (-) TimerEvent: {}
+[26.737468] (air_lab_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.737672] (air_lab_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.738330] (air_lab_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.785063] (-) TimerEvent: {}
+[26.885301] (-) TimerEvent: {}
+[26.937264] (air_lab_interfaces) StdoutLine: {'line': b'[100%] Built target air_lab_interfaces__rosidl_typesupport_c__pyext\n'}
+[26.938310] (air_lab_interfaces) StdoutLine: {'line': b'[100%] Built target air_lab_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[26.940352] (air_lab_interfaces) StdoutLine: {'line': b'[100%] Built target air_lab_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[26.985436] (-) TimerEvent: {}
+[27.007260] (air_lab_interfaces) CommandEnded: {'returncode': 0}
+[27.010481] (air_lab_interfaces) JobProgress: {'identifier': 'air_lab_interfaces', 'progress': 'install'}
+[27.039666] (air_lab_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces'], 'cwd': '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces', 'env': OrderedDict([('USER', 'leime957'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1089241'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/air_ws/install/ros_kdb/lib:/opt/air_ws/install/ros_kdb_interfaces/lib:/opt/air_ws/install/air_simple_sim_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/auksys_build/inst/lib:/.singularity.d/libs'), ('__MODULES_LMALTNAME', 'prog/apptainer/1.3.2&as|prog/apptainer/default&as|prog/apptainer/latest:prog/vscode/1.96.4/1&as|prog/default&as|prog/latest&as|prog/vscode/default&as|prog/vscode/latest&as|prog/vscode/1.96.4/default&as|prog/vscode/1.96.4/latest:prog/pycharm-community/2024.2/0&as|prog/pycharm-community/default&as|prog/pycharm-community/latest&as|prog/pycharm-community/2024.2/default&as|prog/pycharm-community/2024.2/latest'), ('HOME', '/home/leime957'), ('OLDPWD', '/home/leime957/TDDE05/ros2_ws/src/labs/air_lab_interfaces'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('USER_PATH', '/courses/TDDE05/software/bin:/opt/liu/course-venv-tdde24/1/2/bin:/opt/liu/pycharm-community/2024.2/0/bin:/opt/liu/vscode/1.96.4/1/bin:/opt/liu/apptainer/1.3.2/0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('LC_CTYPE', 'sv_SE.UTF-8'), ('QML2_IMPORT_PATH', '/opt/auksys_build/inst/lib/qt5/qml:/opt/auksys_build/inst/lib/qt6/qml'), ('_LMFILES_', '/usr/share/modules/modulefiles/null:/etc/environment-modules/modules/prog/apptainer/1.3.2:/etc/environment-modules/modules/courses/TDDE05:/etc/environment-modules/modules/prog/vscode/1.96.4/1:/etc/environment-modules/modules/prog/pycharm-community/2024.2/0:/etc/environment-modules/modules/courses/TDDE24:/etc/environment-modules/modules/courses/TDDE23'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1500136881/bus'), ('COLORTERM', 'truecolor'), ('APPTAINER_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('UBUNTU_MENUPROXY', '1'), ('LOCAL_DISK_CONTAINER', '/opt/liu/tdde05-rosbox/0/0/tdde05.sif'), ('MANDATORY_PATH', '/usr/share/gconf/xfce.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/leime957/TDDE05/ros2_ws/install:/opt/air_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('SINGULARITY_ENVIRONMENT', '/.singularity.d/env/91-environment.sh'), ('LOGNAME', 'leime957'), ('WINDOWID', '75562617'), ('RUBYLIB', '/opt/auksys_build/inst/lib/ruby:'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('AUKSYS_BUILD_INST', '/opt/auksys_build/inst'), ('PKG_CONFIG_PATH', '/opt/auksys_build/inst/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/xfce.default.path'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c9'), ('PYCHARM', '/opt/liu/pycharm-community/2024.2/0'), ('ROS_LOCALHOST_ONLY', '1'), ('LC_COLLATE', 'sv_SE.UTF-8'), ('PATH', '/courses/TDDE05/software/bin:/opt/ros/humble/bin:/opt/auksys_build/inst/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/su03-201.ad.liu.se:@/tmp/.ICE-unix/1088972,unix/su03-201.ad.liu.se:/tmp/.ICE-unix/1088972'), ('APPTAINER_COMMAND', 'exec'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session3'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1500136881'), ('DISPLAY', ':0.0'), ('APPTAINER_APPNAME', ''), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('__MODULES_LMTAG', 'prog/apptainer/1.3.2&auto-loaded:prog/vscode/1.96.4/1&auto-loaded:prog/pycharm-community/2024.2/0&auto-loaded:courses/TDDE24&auto-loaded'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/leime957/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXw0KL88/agent.1089240'), ('ROS_DOMAIN_ID', '92'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/leime957'), ('AMENT_PREFIX_PATH', '/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble'), ('LC_MESSAGES', 'en_GB.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_1500136881_77CYPU'), ('QT_ACCESSIBILITY', '1'), ('AUKSYS_ROOT', '/opt/auksys_build'), ('GDMSESSION', 'xfce'), ('APPTAINER_CONTAINER', '/opt/liu/tdde05-rosbox/0/0/tdde05.sif'), ('APPTAINER_BIND', '/run/user,/run/screen,/courses/TDDE05'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('VIRTUAL_ENV', '/opt/liu/course-venv-tdde24/1/2'), ('SINGULARITY_CONTAINER', '/opt/liu/tdde05-rosbox/0/0/tdde05.sif'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('SINGULARITY_BIND', '/run/user,/run/screen,/courses/TDDE05'), ('PWD', '/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces'), ('__MODULES_LMPREREQ', 'courses/TDDE05&prog/apptainer/1.3.2:courses/TDDE24&prog/vscode&prog/pycharm-community/2024.2:courses/TDDE23&courses/TDDE24'), ('LOADEDMODULES', 'null:prog/apptainer/1.3.2:courses/TDDE05:prog/vscode/1.96.4/1:prog/pycharm-community/2024.2/0:courses/TDDE24:courses/TDDE23'), ('APPTAINER_NAME', 'tdde05.sif'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('VSCODE', '/opt/liu/vscode/1.96.4/1'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/home/leime957/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/leime957/TDDE05/ros2_ws/build/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/build/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:/opt/air_ws/install/ros_kdb/local/lib/python3.10/dist-packages:/opt/air_ws/install/ros_kdb_interfaces/local/lib/python3.10/dist-packages:/opt/air_ws/install/air_simple_sim_msgs/local/lib/python3.10/dist-packages:/opt/air_ws/build/air_simple_sim:/opt/air_ws/install/air_simple_sim/lib/python3.10/site-packages:/opt/air_ws/build/air_bringup:/opt/air_ws/install/air_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/auksys_build/inst/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('SINGULARITY_NAME', 'tdde05.sif'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('MANPATH', '::/opt/puppetlabs/puppet/share/man'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst::/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble')]), 'shell': False}
+[27.073089] (air_lab_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.076962] (air_lab_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.085537] (-) TimerEvent: {}
+[27.088209] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/ament_index/resource_index/rosidl_interfaces/air_lab_interfaces\n'}
+[27.128861] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.185729] (-) TimerEvent: {}
+[27.286029] (-) TimerEvent: {}
+[27.371937] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__functions.h\n'}
+[27.386159] (-) TimerEvent: {}
+[27.486512] (-) TimerEvent: {}
+[27.586879] (-) TimerEvent: {}
+[27.610419] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__struct.h\n'}
+[27.631849] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__type_support.h\n'}
+[27.653817] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/execute_tst.h\n'}
+[27.684512] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/library_path.sh\n'}
+[27.686956] (-) TimerEvent: {}
+[27.711669] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/library_path.dsv\n'}
+[27.746889] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.784948] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__rosidl_typesupport_fastrtps_c.h\n'}
+[27.787059] (-) TimerEvent: {}
+[27.812451] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[27.835474] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__builder.hpp\n'}
+[27.887175] (-) TimerEvent: {}
+[27.987490] (-) TimerEvent: {}
+[28.087882] (-) TimerEvent: {}
+[28.089098] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__struct.hpp\n'}
+[28.120342] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__traits.hpp\n'}
+[28.147877] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__type_support.hpp\n'}
+[28.174540] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/execute_tst.hpp\n'}
+[28.187995] (-) TimerEvent: {}
+[28.288300] (-) TimerEvent: {}
+[28.388698] (-) TimerEvent: {}
+[28.449113] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[28.472426] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.488827] (-) TimerEvent: {}
+[28.496224] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[28.523073] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__rosidl_typesupport_introspection_c.h\n'}
+[28.551140] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/include/air_lab_interfaces/air_lab_interfaces/srv/detail/execute_tst__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.576716] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/pythonpath.sh\n'}
+[28.588926] (-) TimerEvent: {}
+[28.600913] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/pythonpath.dsv\n'}
+[28.632741] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[28.655151] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[28.680852] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[28.689024] (-) TimerEvent: {}
+[28.704609] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[28.737581] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/__init__.py\n'}
+[28.771644] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[28.789155] (-) TimerEvent: {}
+[28.793624] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[28.815174] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/_air_lab_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[28.841041] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.889283] (-) TimerEvent: {}
+[28.989592] (-) TimerEvent: {}
+[29.089917] (-) TimerEvent: {}
+[29.093005] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.115052] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.147472] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/libair_lab_interfaces__rosidl_generator_py.so\n'}
+[29.176921] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/__init__.py\n'}
+[29.190010] (-) TimerEvent: {}
+[29.200642] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/_execute_tst.py\n'}
+[29.223936] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/_execute_tst_s.c\n'}
+[29.250996] (air_lab_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.290132] (-) TimerEvent: {}
+[29.498841] (air_lab_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.499007] (-) TimerEvent: {}
+[29.502696] (air_lab_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/air_lab_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.509194] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/srv/ExecuteTst.idl\n'}
+[29.533705] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/srv/ExecuteTst.srv\n'}
+[29.554781] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/srv/ExecuteTst_Request.msg\n'}
+[29.579211] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/srv/ExecuteTst_Response.msg\n'}
+[29.599149] (-) TimerEvent: {}
+[29.606779] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/ament_index/resource_index/package_run_dependencies/air_lab_interfaces\n'}
+[29.634506] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/ament_index/resource_index/parent_prefix_path/air_lab_interfaces\n'}
+[29.657564] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/ament_prefix_path.sh\n'}
+[29.682797] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/ament_prefix_path.dsv\n'}
+[29.699256] (-) TimerEvent: {}
+[29.799629] (-) TimerEvent: {}
+[29.805168] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/path.sh\n'}
+[29.835255] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/environment/path.dsv\n'}
+[29.858806] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/local_setup.bash\n'}
+[29.899756] (-) TimerEvent: {}
+[30.000122] (-) TimerEvent: {}
+[30.100438] (-) TimerEvent: {}
+[30.126151] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/local_setup.sh\n'}
+[30.160904] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/local_setup.zsh\n'}
+[30.190065] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/local_setup.dsv\n'}
+[30.200533] (-) TimerEvent: {}
+[30.220038] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.dsv\n'}
+[30.251263] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/ament_index/resource_index/packages/air_lab_interfaces\n'}
+[30.281855] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[30.300642] (-) TimerEvent: {}
+[30.400904] (-) TimerEvent: {}
+[30.501166] (-) TimerEvent: {}
+[30.533212] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.561072] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.585064] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.601287] (-) TimerEvent: {}
+[30.701773] (-) TimerEvent: {}
+[30.847910] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.848074] (-) TimerEvent: {}
+[30.879258] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.903779] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.929207] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfacesConfig.cmake\n'}
+[30.948216] (-) TimerEvent: {}
+[30.954274] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfacesConfig-version.cmake\n'}
+[30.978413] (air_lab_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/package.xml\n'}
+[31.048390] (-) TimerEvent: {}
+[31.148710] (-) TimerEvent: {}
+[31.247390] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_generator_c.so\n'}
+[31.248758] (-) TimerEvent: {}
+[31.261722] (air_lab_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_generator_c.so" to ""\n'}
+[31.263743] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[31.278003] (air_lab_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[31.279450] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[31.295658] (air_lab_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[31.297013] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[31.310334] (air_lab_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[31.311991] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_c.so\n'}
+[31.325659] (air_lab_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[31.327112] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[31.342149] (air_lab_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[31.343633] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_cpp.so\n'}
+[31.348859] (-) TimerEvent: {}
+[31.357478] (air_lab_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[31.448964] (-) TimerEvent: {}
+[31.526647] (air_lab_interfaces) StdoutLine: {'line': b"Listing '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces'...\n"}
+[31.526858] (air_lab_interfaces) StdoutLine: {'line': b"Compiling '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/__init__.py'...\n"}
+[31.526959] (air_lab_interfaces) StdoutLine: {'line': b"Listing '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv'...\n"}
+[31.527060] (air_lab_interfaces) StdoutLine: {'line': b"Compiling '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/__init__.py'...\n"}
+[31.527150] (air_lab_interfaces) StdoutLine: {'line': b"Compiling '/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages/air_lab_interfaces/srv/_execute_tst.py'...\n"}
+[31.532449] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_generator_py.so\n'}
+[31.546091] (air_lab_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib/libair_lab_interfaces__rosidl_generator_py.so" to ""\n'}
+[31.547985] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_cExport.cmake\n'}
+[31.549015] (-) TimerEvent: {}
+[31.557836] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[31.567639] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[31.577191] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[31.587260] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_cppExport.cmake\n'}
+[31.597823] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[31.607690] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[31.649114] (-) TimerEvent: {}
+[31.749364] (-) TimerEvent: {}
+[31.849604] (-) TimerEvent: {}
+[31.863077] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[31.873960] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[31.949717] (-) TimerEvent: {}
+[32.049958] (-) TimerEvent: {}
+[32.120233] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[32.129871] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[32.139906] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[32.149644] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[32.150008] (-) TimerEvent: {}
+[32.159131] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[32.169145] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/air_lab_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[32.179173] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_pyExport.cmake\n'}
+[32.189349] (air_lab_interfaces) StdoutLine: {'line': b'-- Installing: /home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/share/air_lab_interfaces/cmake/export_air_lab_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[32.202865] (air_lab_interfaces) CommandEnded: {'returncode': 0}
+[32.250137] (-) TimerEvent: {}
+[32.350515] (-) TimerEvent: {}
+[32.450736] (-) TimerEvent: {}
+[32.550931] (-) TimerEvent: {}
+[32.599817] (air_lab_interfaces) JobEnded: {'identifier': 'air_lab_interfaces', 'rc': 0}
+[32.603628] (-) EventReactorShutdown: {}

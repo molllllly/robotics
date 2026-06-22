@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing air_lab5.egg-info/PKG-INFO
+writing dependency_links to air_lab5.egg-info/dependency_links.txt
+writing entry points to air_lab5.egg-info/entry_points.txt
+writing requirements to air_lab5.egg-info/requires.txt
+writing top-level names to air_lab5.egg-info/top_level.txt
+reading manifest file 'air_lab5.egg-info/SOURCES.txt'
+writing manifest file 'air_lab5.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/leime957/TDDE05/ros2_ws/install/air_lab5/lib/python3.10/site-packages/air-lab5.egg-link (link to .)
+Installing decision script to /home/leime957/TDDE05/ros2_ws/install/air_lab5/lib/air_lab5
+Installing text_command script to /home/leime957/TDDE05/ros2_ws/install/air_lab5/lib/air_lab5
+
+Installed /home/leime957/TDDE05/ros2_ws/build/air_lab5
+running symlink_data

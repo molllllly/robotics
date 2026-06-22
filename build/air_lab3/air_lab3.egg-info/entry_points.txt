@@ -1,0 +1,5 @@
+[console_scripts]
+generate_tst = air_lab3.generate_tst:main
+tst_executor = air_lab3.tst_executor:main
+visualize_semantic = air_lab3.visualize_semantic:main
+

@@ -1,0 +1,24 @@
+[28.680s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab3': AMENT_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab3/build --no-deps symlink_data
+[37.368s] running develop
+[46.074s] running egg_info
+[46.075s] creating air_lab3.egg-info
+[46.075s] writing air_lab3.egg-info/PKG-INFO
+[46.075s] writing dependency_links to air_lab3.egg-info/dependency_links.txt
+[46.076s] writing entry points to air_lab3.egg-info/entry_points.txt
+[46.077s] writing requirements to air_lab3.egg-info/requires.txt
+[46.078s] writing top-level names to air_lab3.egg-info/top_level.txt
+[46.089s] writing manifest file 'air_lab3.egg-info/SOURCES.txt'
+[46.183s] reading manifest file 'air_lab3.egg-info/SOURCES.txt'
+[46.186s] writing manifest file 'air_lab3.egg-info/SOURCES.txt'
+[46.367s] running build_ext
+[46.368s] Creating /home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/python3.10/site-packages/air-lab3.egg-link (link to .)
+[46.371s] Installing tst_executor script to /home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/air_lab3
+[46.375s] 
+[46.375s] Installed /home/leime957/TDDE05/ros2_ws/build/air_lab3
+[46.375s] running symlink_data
+[46.376s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab3/share/ament_index
+[46.376s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab3/share/ament_index/resource_index
+[46.377s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab3/share/ament_index/resource_index/packages
+[46.378s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_lab3/resource/air_lab3 -> /home/leime957/TDDE05/ros2_ws/install/air_lab3/share/ament_index/resource_index/packages
+[46.379s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_lab3/package.xml -> /home/leime957/TDDE05/ros2_ws/install/air_lab3/share/air_lab3
+[46.563s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab3' returned '0': AMENT_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab3/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab3/build --no-deps symlink_data

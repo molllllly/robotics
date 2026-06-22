@@ -1,0 +1,1 @@
+timestamp,rx,ry,ryaw,num_humans,closest_human_dist,human_collision,collision_count,wall_state,human_state,cmd_linear_x,cmd_angular_z,target_x,target_y,target_dist

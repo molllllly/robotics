@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+air_navigation_examples/__init__.py
+air_navigation_examples/ana.py
+air_navigation_examples/anasimple.py
+air_navigation_examples/visualize_human.py
+air_navigation_examples.egg-info/PKG-INFO
+air_navigation_examples.egg-info/SOURCES.txt
+air_navigation_examples.egg-info/dependency_links.txt
+air_navigation_examples.egg-info/entry_points.txt
+air_navigation_examples.egg-info/requires.txt
+air_navigation_examples.egg-info/top_level.txt
+air_navigation_examples.egg-info/zip-safe
+resource/air_navigation_examples

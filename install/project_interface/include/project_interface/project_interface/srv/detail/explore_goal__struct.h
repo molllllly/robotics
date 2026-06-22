@@ -1,0 +1,1 @@
+/home/leime957/TDDE05/ros2_ws/build/project_interface/rosidl_generator_c/project_interface/srv/detail/explore_goal__struct.h

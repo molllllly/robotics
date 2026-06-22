@@ -1,0 +1,19 @@
+[35.973s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab2': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab2/build --no-deps symlink_data
+[44.623s] running develop
+[51.502s] running egg_info
+[51.503s] writing air_lab2.egg-info/PKG-INFO
+[51.505s] writing dependency_links to air_lab2.egg-info/dependency_links.txt
+[51.507s] writing entry points to air_lab2.egg-info/entry_points.txt
+[51.509s] writing requirements to air_lab2.egg-info/requires.txt
+[51.512s] writing top-level names to air_lab2.egg-info/top_level.txt
+[51.550s] reading manifest file 'air_lab2.egg-info/SOURCES.txt'
+[51.553s] writing manifest file 'air_lab2.egg-info/SOURCES.txt'
+[51.570s] running build_ext
+[51.571s] Creating /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages/air-lab2.egg-link (link to .)
+[51.576s] Installing lab2_node script to /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/air_lab2
+[51.579s] Installing ran script to /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/air_lab2
+[51.583s] Installing talker script to /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/air_lab2
+[51.586s] 
+[51.586s] Installed /home/leime957/TDDE05/ros2_ws/build/air_lab2
+[51.587s] running symlink_data
+[51.667s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab2' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab2/build --no-deps symlink_data

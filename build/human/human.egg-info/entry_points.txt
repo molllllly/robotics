@@ -1,0 +1,9 @@
+[air_navigation.controller]
+my_controller = human_explore.my_controller:MyHumanAwareController
+
+[air_navigation.trajectory_critic]
+my_critic = human_explore.my_critic:MyHumanAwareCritic
+
+[console_scripts]
+human_explore = human.human_explore:main
+

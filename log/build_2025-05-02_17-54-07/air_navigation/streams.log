@@ -1,0 +1,34 @@
+[12.530s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_navigation -- -j20 -l20
+[14.759s] [ 62%] Built target air_navigation
+[16.040s] [100%] Built target python_module_air_navigation_
+[16.222s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --build /home/leime957/TDDE05/ros2_ws/build/air_navigation -- -j20 -l20
+[16.237s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_navigation
+[16.459s] -- Install configuration: "Release"
+[16.462s] -- Execute custom install script
+[16.465s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/libair_navigation.so
+[16.467s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/python3.10/site-packages///air_navigation_.so
+[16.468s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/python3.10/site-packages//air_navigation/__init__.py
+[16.471s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/library_path.sh
+[16.473s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/library_path.dsv
+[16.475s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation//air_navigation_plugins.xml
+[16.476s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation//air_navigation_plugins.xml
+[16.479s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/package_run_dependencies/air_navigation
+[16.481s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/parent_prefix_path/air_navigation
+[16.482s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/ament_prefix_path.sh
+[16.485s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/ament_prefix_path.dsv
+[16.486s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/path.sh
+[16.488s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/path.dsv
+[16.490s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.bash
+[16.492s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.sh
+[16.494s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.zsh
+[16.496s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.dsv
+[16.498s] -- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.dsv
+[16.757s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/packages/air_navigation
+[16.759s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/nav2_core__pluginlib__plugin/air_navigation
+[16.760s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/dwb_core__pluginlib__plugin/air_navigation
+[16.762s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/ament_cmake_export_libraries-extras.cmake
+[16.763s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.765s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/air_navigationConfig.cmake
+[16.766s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/air_navigationConfig-version.cmake
+[16.768s] -- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.xml
+[16.772s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leime957/TDDE05/ros2_ws/install/exploration:/home/leime957/TDDE05/ros2_ws/install/human:/home/leime957/TDDE05/ros2_ws/install/air_navigation_examples:/home/leime957/TDDE05/ros2_ws/install/air_lab5:/home/leime957/TDDE05/ros2_ws/install/air_lab3:/home/leime957/TDDE05/ros2_ws/install/air_lab_common:/home/leime957/TDDE05/ros2_ws/install/air_lab2:/home/leime957/TDDE05/ros2_ws/install/air_bringup:/opt/air_ws/install/air_simple_sim:/opt/air_ws/install/air_bringup:/opt/ros/humble /usr/bin/cmake --install /home/leime957/TDDE05/ros2_ws/build/air_navigation

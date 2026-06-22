@@ -1,0 +1,9 @@
+<string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+<string>:1: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+LIBS: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+DEPS: rclcpp;nav2_dwb_controller;pluginlib;nav2_util;nav2_costmap_2d
+041319 - The version of SIP found expressed as a 6 digit hex number suitable for comparison as a string.
+4.19.25 - The version of SIP found as a human readable string.
+/usr/bin/sip - Path and filename of the SIP command line executable.
+/usr/include/python3.10 - Directory holding the SIP C++ header file.
+/usr/share/sip - default SIP dir

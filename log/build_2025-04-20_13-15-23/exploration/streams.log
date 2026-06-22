@@ -1,0 +1,24 @@
+[4.589s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/exploration': AMENT_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface:/opt/auksys_build/inst:/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/exploration/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/exploration/build --no-deps symlink_data
+[6.513s] running develop
+[7.797s] running egg_info
+[7.798s] creating exploration.egg-info
+[7.799s] writing exploration.egg-info/PKG-INFO
+[7.802s] writing dependency_links to exploration.egg-info/dependency_links.txt
+[7.804s] writing entry points to exploration.egg-info/entry_points.txt
+[7.806s] writing requirements to exploration.egg-info/requires.txt
+[7.808s] writing top-level names to exploration.egg-info/top_level.txt
+[7.811s] writing manifest file 'exploration.egg-info/SOURCES.txt'
+[7.824s] reading manifest file 'exploration.egg-info/SOURCES.txt'
+[7.826s] writing manifest file 'exploration.egg-info/SOURCES.txt'
+[7.835s] running build_ext
+[7.835s] Creating /home/leime957/TDDE05/ros2_ws/install/exploration/lib/python3.10/site-packages/exploration.egg-link (link to .)
+[7.840s] Installing explore script to /home/leime957/TDDE05/ros2_ws/install/exploration/lib/exploration
+[7.844s] 
+[7.844s] Installed /home/leime957/TDDE05/ros2_ws/build/exploration
+[7.845s] running symlink_data
+[7.845s] creating /home/leime957/TDDE05/ros2_ws/install/exploration/share/ament_index
+[7.845s] creating /home/leime957/TDDE05/ros2_ws/install/exploration/share/ament_index/resource_index
+[7.847s] creating /home/leime957/TDDE05/ros2_ws/install/exploration/share/ament_index/resource_index/packages
+[7.848s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/exploration/resource/exploration -> /home/leime957/TDDE05/ros2_ws/install/exploration/share/ament_index/resource_index/packages
+[7.849s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/exploration/package.xml -> /home/leime957/TDDE05/ros2_ws/install/exploration/share/exploration
+[7.894s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/exploration' returned '0': AMENT_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface:/opt/auksys_build/inst:/home/leime957/TDDE05/ros2_ws/install/air_lab_interfaces:/opt/air_ws/install/ros_kdb:/opt/air_ws/install/ros_kdb_interfaces:/opt/air_ws/install/air_tst:/opt/air_ws/install/air_simple_sim_msgs:/opt/auksys_build/inst LD_LIBRARY_PATH=/home/leime957/TDDE05/ros2_ws/install/project_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/exploration/lib/python3.10/site-packages:/home/leime957/TDDE05/ros2_ws/install/project_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/exploration/build --no-deps symlink_data

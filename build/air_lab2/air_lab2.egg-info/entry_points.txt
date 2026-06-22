@@ -1,0 +1,5 @@
+[console_scripts]
+lab2_node = air_lab2.lab2_node:main
+ran = air_lab2.random_exploration:main
+talker = air_lab2.publisher_member_function:main
+

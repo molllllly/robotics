@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target air_navigation[0m
+[ 62%] Built target air_navigation
+[35m[1mConsolidate compiler generated dependencies of target python_module_air_navigation_[0m
+[100%] Built target python_module_air_navigation_
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/libair_navigation.so
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/python3.10/site-packages///air_navigation_.so
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/lib/python3.10/site-packages//air_navigation/__init__.py
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/library_path.sh
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/library_path.dsv
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation//air_navigation_plugins.xml
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation//air_navigation_plugins.xml
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/package_run_dependencies/air_navigation
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/parent_prefix_path/air_navigation
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/path.sh
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/environment/path.dsv
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.bash
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.sh
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.zsh
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/local_setup.dsv
+-- Symlinking: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.dsv
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/packages/air_navigation
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/nav2_core__pluginlib__plugin/air_navigation
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/ament_index/resource_index/dwb_core__pluginlib__plugin/air_navigation
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/air_navigationConfig.cmake
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/cmake/air_navigationConfig-version.cmake
+-- Up-to-date symlink: /home/leime957/TDDE05/ros2_ws/install/air_navigation/share/air_navigation/package.xml

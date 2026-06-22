@@ -1,0 +1,3 @@
+[console_scripts]
+explore = exploration.main:main
+

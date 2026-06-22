@@ -1,0 +1,24 @@
+[35.821s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/human': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/human/build --no-deps symlink_data
+[44.542s] running develop
+[51.422s] running egg_info
+[51.422s] creating human.egg-info
+[51.423s] writing human.egg-info/PKG-INFO
+[51.428s] writing dependency_links to human.egg-info/dependency_links.txt
+[51.429s] writing entry points to human.egg-info/entry_points.txt
+[51.431s] writing requirements to human.egg-info/requires.txt
+[51.433s] writing top-level names to human.egg-info/top_level.txt
+[51.436s] writing manifest file 'human.egg-info/SOURCES.txt'
+[51.471s] reading manifest file 'human.egg-info/SOURCES.txt'
+[51.474s] writing manifest file 'human.egg-info/SOURCES.txt'
+[51.490s] running build_ext
+[51.490s] Creating /home/leime957/TDDE05/ros2_ws/install/human/lib/python3.10/site-packages/human.egg-link (link to .)
+[51.497s] Installing human_explore script to /home/leime957/TDDE05/ros2_ws/install/human/lib/human
+[51.507s] 
+[51.508s] Installed /home/leime957/TDDE05/ros2_ws/build/human
+[51.508s] running symlink_data
+[51.509s] creating /home/leime957/TDDE05/ros2_ws/install/human/share/ament_index
+[51.509s] creating /home/leime957/TDDE05/ros2_ws/install/human/share/ament_index/resource_index
+[51.510s] creating /home/leime957/TDDE05/ros2_ws/install/human/share/ament_index/resource_index/packages
+[51.511s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/human/resource/human -> /home/leime957/TDDE05/ros2_ws/install/human/share/ament_index/resource_index/packages
+[51.512s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/human/package.xml -> /home/leime957/TDDE05/ros2_ws/install/human/share/human
+[51.737s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/human' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/human/build --no-deps symlink_data

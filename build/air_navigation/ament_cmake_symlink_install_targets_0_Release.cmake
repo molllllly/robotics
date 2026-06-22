@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/leime957/TDDE05/ros2_ws/build/air_navigation/libair_navigation.so" "TARGETS" "air_navigation" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

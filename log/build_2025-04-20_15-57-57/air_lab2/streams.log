@@ -1,0 +1,26 @@
+[28.131s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab2': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab2/build --no-deps symlink_data
+[37.686s] running develop
+[60.830s] running egg_info
+[60.831s] creating air_lab2.egg-info
+[60.832s] writing air_lab2.egg-info/PKG-INFO
+[60.836s] writing dependency_links to air_lab2.egg-info/dependency_links.txt
+[60.838s] writing entry points to air_lab2.egg-info/entry_points.txt
+[60.840s] writing requirements to air_lab2.egg-info/requires.txt
+[60.842s] writing top-level names to air_lab2.egg-info/top_level.txt
+[60.845s] writing manifest file 'air_lab2.egg-info/SOURCES.txt'
+[60.879s] reading manifest file 'air_lab2.egg-info/SOURCES.txt'
+[60.881s] writing manifest file 'air_lab2.egg-info/SOURCES.txt'
+[60.990s] running build_ext
+[60.990s] Creating /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages/air-lab2.egg-link (link to .)
+[60.996s] Installing lab2_node script to /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/air_lab2
+[60.999s] Installing ran script to /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/air_lab2
+[61.002s] Installing talker script to /home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/air_lab2
+[61.005s] 
+[61.005s] Installed /home/leime957/TDDE05/ros2_ws/build/air_lab2
+[61.006s] running symlink_data
+[61.006s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab2/share/ament_index
+[61.007s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab2/share/ament_index/resource_index
+[61.007s] creating /home/leime957/TDDE05/ros2_ws/install/air_lab2/share/ament_index/resource_index/packages
+[61.009s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_lab2/resource/air_lab2 -> /home/leime957/TDDE05/ros2_ws/install/air_lab2/share/ament_index/resource_index/packages
+[61.010s] symbolically linking /home/leime957/TDDE05/ros2_ws/build/air_lab2/package.xml -> /home/leime957/TDDE05/ros2_ws/install/air_lab2/share/air_lab2
+[61.293s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab2' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab2/build --no-deps symlink_data

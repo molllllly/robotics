@@ -1,0 +1,5 @@
+[console_scripts]
+ana = air_navigation_examples.ana:main
+anasimple = air_navigation_examples.anasimple:main
+visualize_human = air_navigation_examples.visualize_human:main
+

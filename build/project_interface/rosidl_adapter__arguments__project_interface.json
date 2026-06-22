@@ -1,0 +1,6 @@
+{
+  "package_name": "project_interface",
+  "non_idl_tuples": [
+    "/home/leime957/TDDE05/ros2_ws/src/tdde05-projects-air-04/project_interface:srv/ExploreGoal.srv"
+  ]
+}

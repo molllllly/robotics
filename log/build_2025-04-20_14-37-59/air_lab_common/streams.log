@@ -1,0 +1,17 @@
+[26.132s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_common': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab_common/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab_common/build --no-deps symlink_data
+[34.391s] running develop
+[41.164s] running egg_info
+[41.165s] writing air_lab_common.egg-info/PKG-INFO
+[41.168s] writing dependency_links to air_lab_common.egg-info/dependency_links.txt
+[41.170s] writing entry points to air_lab_common.egg-info/entry_points.txt
+[41.172s] writing requirements to air_lab_common.egg-info/requires.txt
+[41.174s] writing top-level names to air_lab_common.egg-info/top_level.txt
+[41.207s] reading manifest file 'air_lab_common.egg-info/SOURCES.txt'
+[41.210s] writing manifest file 'air_lab_common.egg-info/SOURCES.txt'
+[41.233s] running build_ext
+[41.233s] Creating /home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages/air-lab-common.egg-link (link to .)
+[41.241s] 
+[41.241s] Installed /home/leime957/TDDE05/ros2_ws/build/air_lab_common
+[41.242s] running symlink_data
+[41.249s] error: can't copy '/home/leime957/TDDE05/ros2_ws/build/air_lab_common/screen/ros2': doesn't exist or not a regular file
+[41.555s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/air_lab_common' returned '1': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/air_lab_common/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/air_lab_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/air_lab_common/build --no-deps symlink_data

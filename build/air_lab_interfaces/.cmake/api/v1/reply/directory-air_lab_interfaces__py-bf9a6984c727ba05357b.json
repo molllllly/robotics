@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "air_lab_interfaces__py",
+		"source" : "/home/leime957/TDDE05/ros2_ws/build/air_lab_interfaces/air_lab_interfaces__py"
+	}
+}

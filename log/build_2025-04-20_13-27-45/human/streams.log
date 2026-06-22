@@ -1,0 +1,17 @@
+[38.302s] Invoking command in '/home/leime957/TDDE05/ros2_ws/build/human': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/human/build --no-deps symlink_data
+[49.557s] running develop
+[58.631s] running egg_info
+[58.632s] writing human.egg-info/PKG-INFO
+[58.635s] writing dependency_links to human.egg-info/dependency_links.txt
+[58.637s] writing entry points to human.egg-info/entry_points.txt
+[58.639s] writing requirements to human.egg-info/requires.txt
+[58.641s] writing top-level names to human.egg-info/top_level.txt
+[58.688s] reading manifest file 'human.egg-info/SOURCES.txt'
+[58.690s] writing manifest file 'human.egg-info/SOURCES.txt'
+[58.734s] running build_ext
+[58.734s] Creating /home/leime957/TDDE05/ros2_ws/install/human/lib/python3.10/site-packages/human.egg-link (link to .)
+[58.741s] Installing human_explore script to /home/leime957/TDDE05/ros2_ws/install/human/lib/human
+[58.746s] 
+[58.746s] Installed /home/leime957/TDDE05/ros2_ws/build/human
+[58.747s] running symlink_data
+[59.053s] Invoked command in '/home/leime957/TDDE05/ros2_ws/build/human' returned '0': PYTHONPATH=/home/leime957/TDDE05/ros2_ws/build/human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leime957/TDDE05/ros2_ws/install/human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leime957/TDDE05/ros2_ws/build/human/build --no-deps symlink_data
